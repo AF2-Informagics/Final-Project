@@ -48,7 +48,8 @@ for professor in docs:
 for tid in tids:
     page_num = 1
     while True:
-        r = requests.get(PROF_RATING_URL, params={'tid': tid, 'page': page_num})
+        r = requests.get(PROF_RATING_URL,
+                         params={'tid': tid, 'page': page_num})
         json = r.json()
         ratings = json['ratings']
         remaining = json['remaining']

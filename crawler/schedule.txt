@@ -1,5 +1,5 @@
 ARCTIC 101 
-                 10481 A  3      TTh    830-1020   MGH  097      MALLON,SYDNEY TATE                   0	15                      
+                 10481 A  3      TTh    830-1020   MGH  097      MALLON,SYDNEY TATE                   0	      15                      
 ARCTIC 200 
                  10482 A  3      T      330-520    BAG  108      FABBI,NADINE C.            Open     20       30                      
 HONORS 100 

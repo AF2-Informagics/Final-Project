@@ -4,21 +4,12 @@ library(stringr)
 
 df <- read.csv(file = "data/schedule.csv", stringsAsFactors = FALSE)
 rooms <- df %>% select(Building, Room) %>% group_by(Building) %>% filter(Building != "")
-course.df <- df %>% select(Course) %>% filter(Course != "")
-course.split <- data.frame(do.call('rbind', strsplit(as.character(course.df$Course), ' (?=[^ ]+$)', perl=TRUE)))
-colnames(course.split) <- c("Course", "Number")
+courses.df <- df %>% select(Course) %>% filter(Course != "")
+# split the courses name by the final space, e.g. 'SOC W 308' to 'SOC W' and '308'
+courses.split <- data.frame(do.call('rbind', strsplit(as.character(courses.df$Course), ' (?=[^ ]+$)', perl=TRUE)), stringsAsFactors = FALSE)
+colnames(courses.split) <- c("Course", "Number")
 
-course <- unique(df$Course[df$Course != ""])
-course.letter <- unique(gsub("[[:digit:]]","",course))
-course.letter <- trimws(course.letter)
-
-course.list <- list()
-MakeList <- function(abbr) {
-  vec <- grep(abbr, course, value = TRUE)
-  mylist <- list()
-  mylist[[abbr]] <- vec
-  return(c(course.list, mylist))
-}
+# 
 RemoveEmpty <- function(data) {
   data[!apply(data == "", 1, all),]
 }
@@ -32,8 +23,14 @@ GetRoom <- function(building) {
   list <- list(data)
 }
 
-rooms.list <- sapply(buildings, GetRoom)
-course.list <- lapply(course.letter, MakeList)
+GetCourse <- function(course) {
+  data <- courses.split %>% filter(Course == course) %>% select(Number)
+  list <- list(data)
+}
 
 courses <- unique(df$Course[df$Course != ""])
 buildings <- unique(df$Building[df$Building != ""])
+departments <- unique(courses.split$Course[courses.split$Course != ""])
+
+rooms.list <- sapply(buildings, GetRoom)
+courses.list <- sapply(departments, GetCourse)

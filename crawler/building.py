@@ -22,9 +22,8 @@ for name in buildings.select('li'):
     count = 0
 
     while count < len(rooms):
-        print(rooms[count].text)
-        print(rooms[count+1].text)
-        print(rooms[count+2].text)
+        room_name = rooms[count].text
+        type = rooms[count+1].text
         room = rooms[count].text.strip().replace(" ", "+")
         room_url = URL + room + "/"
         r = requests.get(room_url)

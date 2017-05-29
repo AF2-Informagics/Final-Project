@@ -22,8 +22,8 @@ for name in buildings.select('li'):
     count = 0
 
     while count < len(rooms):
-        print(rooms[count].text)
-        print(rooms[count+1].text)
+        room_name = rooms[count].text
+        type = rooms[count+1].text
         print(rooms[count+2].text)
         room = rooms[count].text.strip().replace(" ", "+")
         room_url = URL + room + "/"
@@ -63,7 +63,7 @@ for name in buildings.select('li'):
                 lists = ul.select('li')
                 for li in lists:
                     print(li.text)
-        print(room_soup.find('img')['src'])
+        img = room_soup.find('img')['src']
         # print(room_soup.select("div[class='widget widget_text']"))
         print()
 

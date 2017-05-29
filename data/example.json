@@ -1,33 +1,34 @@
 {
-   "BNS":{
-      "BNS 117":{
-         "Type":"Classroom",
-         "Equipment":[
-            "Document Camera",
-            "(3,500 Lumens) Video/Data Projector",
-            "Powered Speaker",
-            "DVD/VHS Player",
-            "Furnishings",
-            "Chalk Board",
-            "Chalk Board",
-            "Clock On Clock And Bell",
-            "Ethernet",
-            "Pull-Down Screen",
-            "Pull-Down Screen",
-            "WiFi",
-            "Dimensions",
-            "Front to Back",
-            "Side to Side",
-            "Instructor Area",
-            "Plain Chair",
-            "Table",
-            "(Departmental)",
-            "Table",
-            "(Departmental)",
-            "Student Seating",
-            "50 Tablet-Arm Chairs"
-         ],
-         "Picture":"https://www.cte.uw.edu/pdf/classrooms/214117.png"
-      }
-   }
+    "BNS": {
+        "BNS 117": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "Powered Speaker",
+                "DVD/VHS Player",
+                "Furnishings",
+                "Chalk Board",
+                "Chalk Board",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "Pull-Down Screen",
+                "WiFi",
+                "Dimensions",
+                "Front to Back",
+                "Side to Side",
+                "Instructor Area",
+                "Plain Chair",
+                "Table",
+                "(Departmental)",
+                "Table",
+                "(Departmental)",
+                "Student Seating",
+                "50 Tablet-Arm Chairs"
+            ],
+            "Picture": "https://www.cte.uw.edu/pdf/classrooms/214117.png"
+        }
+    },
+    "More": "https://stackoverflow.com/questions/22669777/creating-a-json-structure-out-of-html-with-beautifulsoup"
 }

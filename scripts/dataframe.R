@@ -5,6 +5,8 @@ library(stringr)
 df <- read.csv(file = "data/schedule.csv", stringsAsFactors = FALSE)
 # mutate(df, test = ifelse(grepl("P",df$EndTime), StartTime + 1200, StartTime))
 # mutate(df, test2 = ifelse(df$StartTime < 700, df$StartTime + 1200, df$StartTime))
+df$StartTime <- ifelse(df$StartTime < 700 | (df$StartTime = 700 & df$EndTime < df$StartTime) | grepl("P",df$EndTime), df$StartTime + 1200, df$StartTime)
+df$EndTime <- ifelse(df$StartTime < 700 | (df$StartTime = 700 & df$EndTime < df$StartTime) | grepl("P", df$EndTime), as.numeric(gsub("([0-9]+).*$", "\\1", df$EndTime)) + 1200, df$EndTime)
 rooms <- df %>% select(Building, Room) %>% group_by(Building) %>% filter(Building != "")
 courses.df <- df %>% select(Course) %>% filter(Course != "")
 # split the courses name by the final space, e.g. 'SOC W 308' to 'SOC W' and '308'

@@ -23,7 +23,7 @@ def crawl_subject(url):
             if section_elem.name == 'table':
                 # Section table
                 section_table_line = section_elem.text
-                print(tab_serparate(section_table_line))
+                # print(tab_serparate(section_table_line))
 
 
 URL = 'https://www.washington.edu/students/timeschd/AUT2017/'

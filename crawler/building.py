@@ -1,4 +1,5 @@
 import requests
+import json
 import re
 from bs4 import BeautifulSoup
 
@@ -11,8 +12,11 @@ buildings = soup.select('div[id=buildings]')[0]
 # building_names = buildings.select('li')
 for name in buildings.select('li'):
     building_name = name.text
-    print(building_name)
+
+    # print(building_name)
     abbr = re.search('(?<=\().+?(?=\))', building_name).group(0)
+    outer_json = "{" + abbr + ": "
+    print(outer_json)
     temp_url = URL + abbr + "/"
     r = requests.get(temp_url)
     temp_soup = BeautifulSoup(r.text, "html.parser")
@@ -30,40 +34,65 @@ for name in buildings.select('li'):
         room_soup = BeautifulSoup(r.text, "html.parser")
         count += 3
         # print all the basic info about the classroom
+        equipment = []
+        furnishings = []
+        dimensions = []
+        instructor_area = []
+        student_seating = []
         for cell in room_soup.html.findAll('h3'):
             # print(cell.text)
             if 'Equipment' == cell.text:
-                print(cell.text)
+                # print(cell.text)
                 ul = cell.find_next_siblings('ul')[0]
-                links = ul.select('a')
-                for a in links:
-                    print(a.text)
+                # links = ul.select('a')
+                equipment = [link.text.strip() for link in ul.findAll('a')]
+                # for a in links:
+                #     print(a.text)
             elif ' Furnishings' == cell.text:
-                print('Furnishings')
+                # print('Furnishings')
                 ul = cell.find_next_siblings('ul')[0]
-                lists = ul.select('li')
-                for li in lists:
-                    print(li.text)
+                furnishings = [list.text.strip() for list in ul.findAll('li')]
+                # lists = ul.select('li')
+                # for li in lists:
+                #     print(li.text)
             elif 'Dimensions' == cell.text:
-                print(cell.text)
+                # print(cell.text)
                 ul = cell.find_next_siblings('ul')[0]
-                lists = ul.select('li')
-                for li in lists:
-                    print(li.text)
+                dimensions = [list.text.strip() for list in ul.findAll('li')]
+                # lists = ul.select('li')
+                # for li in lists:
+                #     print(li.text)
             elif 'Instructor Area' == cell.text:
-                print(cell.text)
+                # print(cell.text)
                 ul = cell.find_next_siblings('ul')[0]
-                lists = ul.select('li')
-                for li in lists:
-                    print(li.text)
+                instructor_area = [list.text.strip() for list in ul.findAll('li')]
+                # lists = ul.select('li')
+                # for li in lists:
+                #     print(li.text)
             elif 'Student Seating' == cell.text:
-                print(cell.text)
+                # print(cell.text)
                 ul = cell.find_next_siblings('ul')[0]
-                lists = ul.select('li')
-                for li in lists:
-                    print(li.text)
-        print(room_soup.find('img')['src'])
+                student_seating = [list.text.strip() for list in ul.findAll('li')]
+                # lists = ul.select('li')
+                # for li in lists:
+                #     print(li.text)
+        # print(equipment)
+        # print(furnishings)
+        # print(dimensions)
+        # print(instructor_area)
+        # print(student_seating)
+        img = room_soup.find('img')['src']
         # print(room_soup.select("div[class='widget widget_text']"))
+        room_name = room_name.strip()
+        result = { room_name: {"Type": type,
+                              "Equipment": equipment,
+                              "Furnishings": furnishings,
+                              "Dimensions": dimensions,
+                              "Instructor Area": instructor_area,
+                              "Student Seating": student_seating,
+                              "Picture": img}}
+        print(result)
+        print("}")
         print()
 
 

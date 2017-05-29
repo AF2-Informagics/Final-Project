@@ -1,0 +1,5542 @@
+{
+    "AND": {
+        "AND 008": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 192",
+                "Chalk Board\n      - 96",
+                "Clock",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 435",
+                "Side to Side\n      - 218"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "45 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/091008.png"
+        },
+        "AND 010": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection",
+                "Wooden Portable Podium - Table Top Lectern"
+            ],
+            "Furnishings": [
+                "Clock",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 192"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 435",
+                "Side to Side\n      - 218"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 36x36"
+            ],
+            "Student Seating": [
+                "45 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/AND_010.png"
+        },
+        "AND 223": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(8,500 Lumens) Video/Data Projector",
+                "Wireless Lavalier Microphone",
+                "Wooden Portable Podium - Table Top Lectern",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "Carpet\n\n      (as shown)",
+                "Chalk Board\n      - 192",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 180x240"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen\n      - 613",
+                "Front to Back\n      - 751",
+                "Side to Side\n      - 429"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 36x96"
+            ],
+            "Student Seating": [
+                "160 Fixed Tablet-Arm Chairs\n\n\n      (1 is left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/091223.png"
+        }
+    },
+    "ARC": {
+        "ARC 147": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Wireless Lavalier Microphone",
+                "Desktop Computer",
+                "(6,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "(6,000 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "2 Clock On Clock And Bells",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen",
+                "Front to Back",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "305 Fixed Folding Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/019147.png"
+        },
+        "ARC 160": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-Ray Player",
+                "2 Document Cameras",
+                "Video/Data Projector",
+                "3500 Lumen LED Projector",
+                "Desktop Computer",
+                "AirMedia Presentation Gateway",
+                "Wireless Lavalier Microphone",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "Fixed Tables\n\n\n      (various lengths)",
+                "55 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/019160.png"
+        }
+    },
+    "ART": {
+        "ART 003": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Document Camera",
+                "Wireless Lavalier Microphone",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (ART 003C)",
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Treated Wall Screen",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 414",
+                "Front to Back\n      - 473",
+                "Mounted Projector To Screen\n      - 257",
+                "Side to Side\n      - 395"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "65 Fixed Folding Tablet-Arm Chairs\n\n\n      (6 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/160003.png"
+        },
+        "ART 004": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(4,000 Lumens) Video/Data Projector",
+                "DVD/VHS Player"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (ART 004A)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Treated Wall Screen",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 198",
+                "Front to Back\n      - 197",
+                "Side to Side\n      - 337"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "2 Plain Chairs"
+            ],
+            "Student Seating": [
+                "25 Fixed Folding Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/160004.png"
+        },
+        "ART 006": {
+            "Type": "Classroom",
+            "Equipment": [
+                "DVD/VHS Player",
+                "2 (35mm) Slide Projectors",
+                "Desktop Computer",
+                "(4,000 Lumens) Video/Data Projector",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (ART 004A)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Treated Wall Screen",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 200",
+                "Front to Back\n      - 200",
+                "Side to Side\n      - 337"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "2 Plain Chairs"
+            ],
+            "Student Seating": [
+                "25 Fixed Folding Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/160006.png"
+        },
+        "ART 317": {
+            "Type": "Classroom",
+            "Equipment": [
+                "DVD/VHS Player",
+                "(4,000 Lumens) Video/Data Projector",
+                "Document Camera",
+                "2 (35mm) Slide Projectors"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (ART 317A)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Treated Wall Screen",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 271",
+                "Front to Back\n      - 331",
+                "Side to Side\n      - 305"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "40 Fixed Folding Tablet-Arm Chairs\n\n\n      (5 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/160317.png"
+        }
+    },
+    "BAG": {
+        "BAG 106": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection",
+                "Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 192",
+                "Chalk Board\n      - 138",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 277",
+                "Side to Side\n      - 201"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs\n\n\n      (4 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/117106.png"
+        },
+        "BAG 108": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 192",
+                "Chalk Board\n      - 144",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 278",
+                "Side to Side\n      - 215"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/117108.png"
+        },
+        "BAG 131": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "2 75\" Monitors",
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Desktop Computer",
+                "Apple TV",
+                "Lampless Video/Data Projector",
+                "Wireless Lavalier Microphone",
+                "Blu-Ray Player"
+            ],
+            "Furnishings": [
+                "Booth",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x240",
+                "3 Moveable Chalk Boards\n\n      - 120",
+                "6 Moveable Chalk Boards\n\n      - 84"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 555",
+                "Front to Back\n      - 557",
+                "Side to Side\n      - 702"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Fixed Lab Table",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "300 Fixed Tablet-Arm Chairs\n\n\n      (12 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/room/BAG+131/schematic_thumbnail/BAG131_schematic.png"
+        },
+        "BAG 154": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Document Camera",
+                "(6,000 Lumens) Video/Data Projector",
+                "PTZ Camera",
+                "Desktop Computer",
+                "Wireless Lavalier Microphone"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (BAG 154A)",
+                "Carpet\n\n      (as shown)",
+                "3 Chalk Boards\n\n      - 113",
+                "Chalk Board\n      - 90",
+                "Chalk Board\n      - 80",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x120",
+                "2 Pull-Down Screens\n\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 476",
+                "Front to Back\n      - 554",
+                "Side to Side\n      - 423"
+            ],
+            "Instructor Area": [
+                "Fixed Lab Table\n      - 38x68\n\n      (w/sink and fume hood)",
+                "Podium"
+            ],
+            "Student Seating": [
+                "120 Fixed Plain Chairs",
+                "15 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/117154.png"
+        }
+    },
+    "EXED": {
+        "EXED 110             (Boeing Auditorium)": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier Microphone",
+                "(6,000 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (EXED 110A)",
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Electronic Podium\n\n      (AMX)",
+                "Ethernet",
+                "Motorized Screen\n      - 252x288",
+                "White Board\n      - 120"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 568",
+                "Front to Back\n      - 657",
+                "Side to Side\n      - 758"
+            ],
+            "Instructor Area": [
+                "Podium"
+            ],
+            "Student Seating": [
+                "125 Fixed Plain Chairs",
+                "23 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/275110.png"
+        }
+    },
+    "BNS": {
+        "BNS 115": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(4,000 Lumens) Video/Data Projector",
+                "Powered Speaker",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "2 Chalk Boards\n\n      - 192",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 283",
+                "Side to Side\n      - 282"
+            ],
+            "Instructor Area": [
+                "Fixed Lab Table\n      - 36x144",
+                "Stool"
+            ],
+            "Student Seating": [
+                "35 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/214115.png"
+        },
+        "BNS 117": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "Powered Speaker",
+                "DVD/VHS Player"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 336",
+                "Chalk Board\n      - 192",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 72",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 411",
+                "Side to Side\n      - 269"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 34x60\n\n      (Departmental)",
+                "Table\n      - 24x48\n\n      (Departmental)"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/214117.png"
+        }
+    },
+    "BLD": {
+        "BLD 286": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 120",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 282",
+                "Side to Side\n      - 206"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (5 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/233286.png"
+        }
+    },
+    "CHL": {
+        "CHL 015": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(4,000 Lumens) Video/Data Projector",
+                "DVD/VHS Player",
+                "Powered Speaker",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 192",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Pull-Down Screens\n\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 449",
+                "Side to Side\n      - 224"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60",
+                "White Board\n      - 164x48"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs\n\n\n      (5 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/183015.png"
+        },
+        "CHL 025": {
+            "Type": "Classroom",
+            "Equipment": [],
+            "Furnishings": [
+                "Chalk Board\n      - 143",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 223",
+                "Side to Side\n      - 223"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "20 Tablet-Arm Chairs\n\n\n      (1 is left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/183025.png"
+        },
+        "CHL 101": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 193",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 270",
+                "Side to Side\n      - 224"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/183101.png"
+        },
+        "CHL 105": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "3 White Boards",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 255",
+                "Side to Side\n      - 224"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs\n\n\n      (2 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/183105.png"
+        }
+    },
+    "CLK": {
+        "CLK 120": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Document Camera",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Pull-Down Screen",
+                "White Board\n      - 240"
+            ],
+            "Dimensions": [
+                "Front to Back",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "9 Tables\n\n      - 24x72"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CLK_120.png"
+        }
+    },
+    "CMU": {
+        "CMU 120": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "Desktop Computer Monitor",
+                "(6,000 Lumens) Video/Data Projector",
+                "Wireless Lavalier Microphone"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (CMU 120A)",
+                "Carpet\n\n      (as shown)",
+                "Clock",
+                "Ethernet",
+                "Motorized Screen\n      - 96x252",
+                "White Board\n      - 192\n\n      (lighted)",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 540",
+                "Front to Back\n      - 627",
+                "Side to Side\n      - 291"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "95 Fixed Folding Tablet-Arm Chairs\n\n\n      (8 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/153120.png"
+        }
+    },
+    "CDH": {
+        "CDH 101": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "2 Powered Speakers"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "White Board\n      - 168"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 324",
+                "Side to Side\n      - 380"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "45 Fixed Plain Chairs",
+                "4 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_101.png"
+        },
+        "CDH 105": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "2 Powered Speakers",
+                "(3,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "White Board\n      - 168"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 314",
+                "Side to Side\n      - 354"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "45 Fixed Plain Chairs",
+                "4 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_105.png"
+        },
+        "CDH 109": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "(6,500 Lumens) Video/Data Projector",
+                "2 (60\") Flat Panel Displays",
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier  Microphone",
+                "Document Camera",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Booth\n\n      ((CDH 109D/E))",
+                "2 Clock On Clock And Bells",
+                "Ethernet",
+                "Motorized Screen\n      - 96x192",
+                "2 White Boards\n\n      - 132"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 401",
+                "Front to Back\n      - 474",
+                "Mounted Projector To Screen\n      - 239",
+                "Side to Side\n      - 847"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "155 Fixed Plain Chairs",
+                "21 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_109.png"
+        },
+        "CDH 110A": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Screen",
+                "White Board\n      - 144"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 60x24"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs\n\n\n      (6 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/236110A.png"
+        },
+        "CDH 110B": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(4,000 Lumens) Video/Data Projector",
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Screen",
+                "White Board\n      - 240"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 60x24"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/236110B.png"
+        },
+        "CDH 115": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "2 Powered Speakers"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "White Board\n      - 144"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 478",
+                "Side to Side\n      - 273"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs\n\n\n      (4 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_115.png"
+        },
+        "CDH 125": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "2 Powered Speakers"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "White Board\n      - 144"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 439",
+                "Side to Side\n      - 269"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms",
+                "Table\n      - 60x30"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_125.png"
+        },
+        "CDH 128": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Screen",
+                "White Board\n      - 216"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 60x30"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (1 is left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/236128.png"
+        },
+        "CDH 135": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier  Microphone",
+                "(6,500 Lumens) Video/Data Projector",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "White Boards\n\n      - 120",
+                "White Board\n      - 96\n\n      (right side wall)",
+                "White Board\n      - 96\n\n      (left side wall)"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen\n      - 334",
+                "Front to Back\n      - 419",
+                "Side to Side\n      - 522"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "65 Fixed Plain Chairs",
+                "7 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_135.png"
+        },
+        "CDH 139": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(6,500 Lumens) Video/Data Projector",
+                "Wireless Lavalier  Microphone",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen\n      - 489",
+                "Front to Back\n      - 610",
+                "Side to Side\n      - 331"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "70 Fixed Plain Chairs",
+                "8 Fixed Tables\n\n      - 21x252"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_139.png"
+        },
+        "CDH 141": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "(60\") Flat Panel Display",
+                "Document Camera",
+                "DVD/VHS Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bells",
+                "White Board\n      - 144"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 60x30"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs\n\n\n      (2 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/CDH_141.png"
+        }
+    },
+    "DEM": {
+        "DEM 002": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Desktop Computer",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bells",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "19 Tables\n\n\n      (Various Lengths)",
+                "40 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_002.png"
+        },
+        "DEM 004": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Gooseneck Microphone",
+                "Blu-ray/DVD Player",
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "6 Fixed Tables\n\n\n      (U-Shaped, various lengths)",
+                "50 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_004.png"
+        },
+        "DEM 012": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "2 Document Cameras",
+                "(4,000 Lumens) Video/Data Projector",
+                "Gooseneck Microphone",
+                "Desktop Computer",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "6 Fixed Tables\n\n\n      (U-shaped, various lengths)",
+                "50 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_012.png"
+        },
+        "DEM 024": {
+            "Type": "Classroom",
+            "Equipment": [
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "Data Projector Lamp",
+                "Desktop Computer",
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Gooseneck Microphone"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "6 Fixed Tables\n\n\n      (U-shaped, various lengths)",
+                "50 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_024.png"
+        },
+        "DEM 102": {
+            "Type": "Classroom",
+            "Equipment": [
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Document Camera",
+                "Gooseneck Microphone"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "8 Fixed Tables\n\n\n      (U-shaped, various lengths)",
+                "85 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_102.png"
+        },
+        "DEM 104": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Gooseneck Microphone",
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "Document Camera",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "8 Fixed Tables\n\n\n      (U-shaped, various lengths)",
+                "85 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_104.png"
+        },
+        "DEM 112": {
+            "Type": "Classroom",
+            "Equipment": [
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "Blu-ray/DVD Player",
+                "2 Document Cameras",
+                "Gooseneck Mic",
+                "Wireless Lavalier Microphone"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "6 Fixed Tables\n\n\n      (U-shaped, various lengths)",
+                "50 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_112.png"
+        },
+        "DEM 124": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Podium",
+                "Table",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "12 Tables\n\n\n      (various lengths)",
+                "30 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_124.png"
+        },
+        "DEM 126": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Video/Data Projector",
+                "Document Camera",
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Wooden Portable Podium - Table Top Lectern"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "19 Tables\n\n\n      (various lengths)",
+                "40 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/DEM_126.png"
+        }
+    },
+    "DEN": {
+        "DEN 110": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-Ray Player",
+                "Apple TV",
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Motorized Screen",
+                "WiFi",
+                "Writing Board\n      - 66x246"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 232",
+                "Side to Side\n      - 271"
+            ],
+            "Instructor Area": [
+                "Table\n      - 60x24",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "20 Tablet-Arm Chairs\n\n\n      (3 are Left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/room/DEN+110/schematic_thumbnail/DEN110_schematic.png"
+        },
+        "DEN 111": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "2 (75\") Flat Panel Displays",
+                "Blu-Ray Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "WiFi",
+                "Writing Board\n      - 65x345"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 232",
+                "Side to Side\n      - 475"
+            ],
+            "Instructor Area": [
+                "Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/DEN+111/schematic_thumbnail/DEN111_schematic.png"
+        },
+        "DEN 112": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Apple TV",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Motorized Screen\n      - 58x104",
+                "WiFi",
+                "Writing Board\n      - 65x305"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 414",
+                "Side to Side\n      - 271"
+            ],
+            "Instructor Area": [
+                "Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "19 Tables\n\n      - 60x18",
+                "40 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/DEN+112/schematic_thumbnail/DEN112_schematic.png"
+        },
+        "DEN 113": {
+            "Type": "Classroom",
+            "Equipment": [
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Wireless Lavalier Microphone",
+                "Blu-ray Player",
+                "LED Hybrid Data Projector",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Motorized Screen\n      - 58x104",
+                "WiFi",
+                "Writing Board\n      - 64x258",
+                "Writing Board\n      - 64x185"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 414",
+                "Side to Side\n      - 275"
+            ],
+            "Instructor Area": [
+                "Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "19 Tables\n\n\n      (Various Lengths)",
+                "35 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/DEN+113/schematic_thumbnail/DEN113_schematic.png"
+        }
+    },
+    "EGL": {
+        "EGL 001": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Wireless Lavalier  Microphone",
+                "VHS Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 168",
+                "White Board\n      - 168",
+                "White Board\n      - 60",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen\n      - 421",
+                "Front to Back\n      - 506",
+                "Mounted Projector To Screen\n      - 142",
+                "Mounted Projector To Screen\n      - 142",
+                "Side to Side\n      - 471"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "80 Fixed Folding Tablet-Arm Chairs\n\n\n      (7 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/216001.png"
+        }
+    },
+    "EE1": {
+        "EE1 003             (Rushmer Room)": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet\n\n      (at all seats)",
+                "Motorized Screen\n      - 84x144",
+                "2 Motorized White Boards\n\n      - 192",
+                "Podium",
+                "White Board\n      - 192"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 485",
+                "Lens to Screen\n      - 285",
+                "Mounted Projector To Screen\n      - 188",
+                "Side to Side\n      - 563"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "40 Fixed Plain Chairs",
+                "5 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164003.png"
+        },
+        "EE1 025": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Motorized Screens\n\n      - 96x66",
+                "6 Motorized White Boards\n\n      - 108"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 234",
+                "Lens to Screen\n      - 234",
+                "Mounted Projector To Screen\n      - 122",
+                "Side to Side\n      - 458"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "35 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164025.png"
+        },
+        "EE1 026": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Motorized Screens\n\n      - 120x66",
+                "3 Motorized White Boards\n\n      - 144"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 203",
+                "Lens to Screen",
+                "Mounted Projector To Screen\n      - 113",
+                "Side to Side\n      - 410"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164026.png"
+        },
+        "EE1 031": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Motorized Screens\n\n      - 120x91",
+                "12 Motorized White Boards\n\n      - 84"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 409\n\n      (center)",
+                "Front to Back\n      - 261\n\n      (east side)",
+                "Front to Back\n      - 257\n\n      (west side)",
+                "Lens to Screen\n      - 317",
+                "Side to Side\n      - 352\n\n      (widest)"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164031.png"
+        },
+        "EE1 037": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Electronic Podium\n\n      (AMX)",
+                "Ethernet",
+                "Motorized Screen\n      - 120x96",
+                "2 Motorized White Boards\n\n      - 147"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 437",
+                "Lens to Screen\n      - 437",
+                "Mounted Projector To Screen\n      - 181",
+                "Side to Side\n      - 404"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "55 Fixed Plain Chairs",
+                "6 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164037.png"
+        },
+        "EE1 042": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Document Camera",
+                "Gooseneck Microphone"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Electronic Podium\n\n      (AMX)",
+                "Ethernet",
+                "2 Motorized Screens\n\n      - 120x67",
+                "3 Motorized White Boards\n\n      - 144"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 191",
+                "Lens to Screen\n      - 191",
+                "Mounted Projector To Screen\n      - 92",
+                "Side to Side\n      - 403"
+            ],
+            "Instructor Area": [
+                "Stool"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164042.png"
+        },
+        "EE1 045": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "Document Camera",
+                "Wireless Lavalier Microphone",
+                "LED Hybrid Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x144",
+                "2 Motorized White Boards\n\n      - 147"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 440",
+                "Lens to Screen\n      - 440",
+                "Mounted Projector To Screen\n      - 192",
+                "Side to Side\n      - 410"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "55 Fixed Plain Chairs",
+                "6 Fixed Tables\n\n\n      (various lengths)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164045.png"
+        },
+        "EE1 054": {
+            "Type": "Classroom",
+            "Equipment": [
+                "3500 Lumen HDMI Video/Data Projector",
+                "DVD/VHS Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bells",
+                "2 Ethernets",
+                "Motorized Screen\n      - 84x84",
+                "Side to Sides\n\n      - 270",
+                "White Board\n      - 192"
+            ],
+            "Dimensions": [
+                "Front to Backs\n\n      - 294",
+                "Mounted Projector To Screens",
+                "Side to Side\n      - 270"
+            ],
+            "Instructor Area": [
+                "Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "30 Flip-Up Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164054.png"
+        },
+        "EE1 105": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(6,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Desktop Computer",
+                "Wireless Lavalier Microphone"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Motorized Screens\n\n      - 120x84",
+                "2 Motorized White Boards\n\n      - 180",
+                "Rear Projection Screen"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 737",
+                "Side to Side\n      - 386"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "195 Fixed Folding Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164105.png"
+        },
+        "EE1 125": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Document Camera",
+                "Desktop Computer",
+                "Wireless Lavalier Microphone",
+                "(6,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Motorized Screens\n\n      - 144x84",
+                "2 Motorized White Boards\n\n      - 180",
+                "Rear Projection Screen"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 647",
+                "Side to Side\n      - 393"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "140 Fixed Folding Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/164125.png"
+        }
+    },
+    "FTR": {
+        "FTR 032": {
+            "Type": "Classroom",
+            "Equipment": [
+                "VHS Player",
+                "Powered Speaker"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 60x60",
+                "White Board\n      - 144",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 241",
+                "Side to Side\n      - 184"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "20 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/267032.png"
+        },
+        "FTR 034             (designated for exclusive use for English Language program by UWEO)": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Powered Speaker",
+                "DVD/VHS Player",
+                "(4,000 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 240",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 392",
+                "Side to Side\n      - 296"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "65 Fixed Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/267034.png"
+        },
+        "FTR 106": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 60x60",
+                "White Board\n      - 216",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 283",
+                "Side to Side\n      - 227"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (2 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/267106.png"
+        }
+    },
+    "FSH": {
+        "FSH 102": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "(6,000 Lumens) Video/Data Projector",
+                "PTZ HD Camera",
+                "Wireless Lavalier Microphone",
+                "Blu-ray/DVD Player",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (FSH 102B)",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 168x168",
+                "3 White Boards\n\n      - 162",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 577",
+                "Front to Back\n      - 712",
+                "Side to Side\n      - 582"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "150 Fixed Folding Tablet-Arm Chairs\n\n\n      (11 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/156102.png"
+        },
+        "FSH 107": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Wireless Lavalier Microphone",
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 144x144",
+                "2 White Boards\n\n      - 132",
+                "2 White Boards\n\n      - 96\n\n      (lighted)",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 512",
+                "Lens to Screen\n      - 441",
+                "Mounted Projector To Screen\n      - 203",
+                "Side to Side\n      - 449"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "6 Fixed Tables\n\n\n      (various lengths)",
+                "60 Plain Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/156107.png"
+        },
+        "FSH 108": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Wireless Lavalier Microphone",
+                "Document Camera",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x144",
+                "3 White Boards\n\n      - 144\n\n      (Sliding Sections)",
+                "White Board\n      - 144",
+                "2 White Boards\n\n      - 72",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 508",
+                "Front to Back\n      - 508",
+                "Mounted Projector To Screen\n      - 290",
+                "Side to Side\n      - 350"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "50 Plain Chairs",
+                "24 Tables\n\n      - 24x60",
+                "6 Tables\n\n      - 24x36"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/156108.png"
+        },
+        "FSH 109": {
+            "Type": "Classroom",
+            "Equipment": [
+                "DVD/VHS Player",
+                "Powered Speaker",
+                "(4,000 Lumens) Video/Data Projector",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 84x84",
+                "White Board\n      - 192",
+                "White Board\n      - 144",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 346",
+                "Side to Side\n      - 291"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "35 Flip-Up Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/156109.png"
+        }
+    },
+    "GLD": {
+        "GLD 117": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Document Camera",
+                "(42\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "White Board\n      - 144",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 248",
+                "Side to Side\n      - 196"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "20 Plain Chairs",
+                "3 Tables\n\n      - 24x120",
+                "Table\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/GLD_117.png"
+        }
+    },
+    "GWN": {
+        "GWN 201": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Wireless Lavalier  Microphone",
+                "Document Camera",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "2 Clock On Clock And Bells",
+                "Ethernet",
+                "Motorized Screen\n      - 240x192",
+                "White Board\n      - 120\n\n      (lighted)"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen",
+                "Front to Back\n      - 491",
+                "Side to Side\n      - 694"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Fixed Table\n\n      (as shown)",
+                "Stool"
+            ],
+            "Student Seating": [
+                "7 Fixed Tables\n\n      - 21x272",
+                "14 Fixed Tables\n\n      - 21x126",
+                "105 Plain Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/108201.png"
+        }
+    },
+    "GUG": {
+        "GUG 204": {
+            "Type": "Classroom",
+            "Equipment": [
+                "LED Hybrid Data Projector",
+                "Apple TV",
+                "Document Camera",
+                "Blu-Ray DVD Player",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "35 Flip-Up Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/103204.png"
+        },
+        "GUG 218": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-Ray DVD Player",
+                "LED Hybrid Data Projector",
+                "AirMedia Presentation Gateway",
+                "Apple TV",
+                "Wireless Lavalier Microphone",
+                "2 Desktop Computers",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "65 Flip-Up Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/103218.png"
+        },
+        "GUG 220": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier Microphone",
+                "Document Camera",
+                "PTZ Camera",
+                "AirMedia Presentation Gateway",
+                "(6,500 Lumens) Video/Data Projector",
+                "Gooseneck Microphone"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "345 Fixed Folding Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/GUG+220/schematic_thumbnail/GUG+220+schematic.png"
+        }
+    },
+    "HCK": {
+        "HCK 132": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "2 Video Conferencing Systems",
+                "Video/Data Projector",
+                "Wireless Lavalier Microphone",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 180x240",
+                "White Board\n      - 375"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 651",
+                "Side to Side\n      - 389"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "2 Plain Chairs",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "125 Fixed Folding Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/HCK_132.png"
+        }
+    },
+    "JHN": {
+        "JHN 022": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 132",
+                "Stepped Floor",
+                "White Board\n      - 240",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 275",
+                "Mounted Projector To Screen",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Cabinet\n      - 28x49\n\n      (Movable demonstration table)",
+                "Electronic Podium",
+                "Stool",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "4 Fixed Tables\n\n      - 18\n\n      (Various Lengths)",
+                "35 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/106022.png"
+        },
+        "JHN 026": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 128",
+                "Stepped Floor",
+                "White Board\n      - 312",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back",
+                "Mounted Projector To Screen",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Cabinet\n\n      (Movable demonstration table)",
+                "Electronic Podium",
+                "Stool",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "4 Fixed Tables\n\n      - 18\n\n      (various lengths)",
+                "35 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/106026.png"
+        },
+        "JHN 075": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Desktop Computer",
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Gooseneck Microphone",
+                "(6,000 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Booth",
+                "Carpet\n\n      (on aisles and in back)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 228",
+                "Stepped Floor",
+                "White Board\n      - 240",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen",
+                "Front to Back",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Cabinet\n      - 28x49\n\n      (Movable demonstration table)",
+                "Electronic Podium",
+                "Stool",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "4 Plain Chairs\n\n\n      (needed for capacity at ADA tables)",
+                "96 Tablet-Arm Theater Seats\n\n\n      (8 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/106075.png"
+        },
+        "JHN 102": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Wireless Lavalier Microphone",
+                "Blu-ray/DVD Player",
+                "Gooseneck Microphone",
+                "Desktop Computer",
+                "(6,000 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Booth",
+                "Carpet\n\n      (on aisles and sides)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 240",
+                "White Board\n      - 240",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen",
+                "Front to Back",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Cabinet\n      - 28x49\n\n      (Movable demonstration table)",
+                "Electronic Podium",
+                "Stool",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "6 Plain Chairs\n\n\n      (needed for capacity at ADA tables)",
+                "6 Tables\n\n\n      (ADA counted as capacity)",
+                "192 Tablet-Arm Theater Seats\n\n\n      (19 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/106102.png"
+        },
+        "JHN 111": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 144",
+                "Stepped Floor",
+                "White Board\n      - 288",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back",
+                "Mounted Projector To Screen",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Cabinet\n      - 28x49\n\n      (Movable demonstration table)",
+                "Electronic Podium",
+                "Stool",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "4 Fixed Tables\n\n      - 18\n\n      (various lengths)",
+                "50 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/106111.png"
+        },
+        "JHN 175": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier Microphone"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Front to Back",
+                "2 Motorized Screens\n\n      - 120",
+                "Stepped Floor",
+                "White Board\n      - 336",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back",
+                "Mounted Projector To Screen",
+                "Side to Side"
+            ],
+            "Instructor Area": [
+                "Cabinet\n      - 28x49\n\n      (Movable demonstration table)",
+                "Electronic Podium",
+                "Stool",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "11 Fixed Tables\n\n      - 18\n\n      (various lengths)",
+                "70 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/106175.png"
+        }
+    },
+    "KNE": {
+        "KNE 110": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "2 Surround Sound Processors",
+                "Document Camera",
+                "Desktop Computer",
+                "Wireless Lavalier Microphone Bodypack",
+                "Blu-ray/DVD Player",
+                "(10,000 Lumens) Video/Data Projector",
+                "Wireless Lavalier Microphone",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (KNE 110A)",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 734",
+                "Front to Back\n      - 734",
+                "Side to Side\n      - 740"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)"
+            ],
+            "Student Seating": [
+                "230 Fixed Plain Chairs",
+                "11 Fixed Tables\n\n      - 620"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/227110.png"
+        },
+        "KNE 120": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "(8,500 Lumens) Video/Data Projector",
+                "Wireless Lavalier Microphone Bodypack",
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier Microphone",
+                "AirMedia Presentation Gateway",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (KNE 124)",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Motorized Screen",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 1040",
+                "Front to Back\n      - 1055",
+                "Side to Side\n      - 1070"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "440 Fixed Folding Tablet-Arm Chairs\n\n\n      (45 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/227120.png"
+        },
+        "KNE 130             (Roethke Auditorium)": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier Microphone Bodypack",
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Desktop Computer",
+                "(10,600 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Booth\n\n      (KNE 132)",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 1063",
+                "Front to Back\n      - 1218",
+                "Side to Side\n      - 1059"
+            ],
+            "Instructor Area": [
+                "Electronic Podium\n\n      (AMX)"
+            ],
+            "Student Seating": [
+                "531 Tablet-Arm Theater Seats\n\n\n      (42 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/227130.png"
+        }
+    },
+    "LOW": {
+        "LOW 101": {
+            "Type": "Classroom",
+            "Equipment": [
+                "DVD/VHS Player",
+                "(4,000 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Powered Speaker",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 147\n\n      (Sliding Sections)",
+                "White Board\n      - 120",
+                "White Board\n      - 104\n\n      (Sliding Sections)",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 319",
+                "Front to Back\n      - 338",
+                "Side to Side\n      - 421"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219101.png"
+        },
+        "LOW 102": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "(4,000 Lumens) Video/Data Projector",
+                "Document Camera",
+                "DVD/VHS Player",
+                "Powered Speaker"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 147\n\n      (Sliding Sections)",
+                "White Board\n      - 120",
+                "White Board\n      - 104\n\n      (Sliding Sections)",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 321",
+                "Front to Back\n      - 336",
+                "Side to Side\n      - 422"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219102.png"
+        },
+        "LOW 105": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(4,000 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Powered Speaker",
+                "DVD/VHS Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 147\n\n      (Sliding Sections)",
+                "White Board\n      - 120",
+                "White Board\n      - 104\n\n      (Sliding Sections)",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 321",
+                "Front to Back\n      - 336",
+                "Side to Side\n      - 422"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs\n\n\n      (4 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219105.png"
+        },
+        "LOW 106": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Blu-Ray/DVD, Powered Speaker, Laptop Connection"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 147",
+                "White Board\n      - 120",
+                "White Board\n      - 104",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 319",
+                "Front to Back\n      - 336",
+                "Side to Side\n      - 422"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219106.png"
+        },
+        "LOW 111": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "3 Chalk Boards\n\n      - 96",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 267",
+                "Side to Side\n      - 331"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219111.png"
+        },
+        "LOW 112": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display",
+                "ADA Chair: Blue Plastic Metal"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "3 White Boards\n\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 268",
+                "Side to Side\n      - 334"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/LOW_112.png"
+        },
+        "LOW 113": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(65\") Flat Panel Display",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "3 White Boards\n\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 266",
+                "Side to Side\n      - 334"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219113.png"
+        },
+        "LOW 114": {
+            "Type": "Classroom",
+            "Equipment": [
+                "65\" Flatscreen Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "3 White Boards\n\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 266",
+                "Side to Side\n      - 337"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/LOW_114.png"
+        },
+        "LOW 115": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "65\" Flatscreen Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "3 White Boards\n\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 271",
+                "Side to Side\n      - 335"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219115.png"
+        },
+        "LOW 116": {
+            "Type": "Classroom",
+            "Equipment": [
+                "65\" Flatscreen Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "3 White Boards\n\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 269",
+                "Side to Side\n      - 336"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219116.png"
+        },
+        "LOW 117": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "3 White Boards\n\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 269",
+                "Side to Side\n      - 337"
+            ],
+            "Instructor Area": [
+                "Ethernet",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/219117.png"
+        },
+        "LOW 118": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "65\" Flatscreen Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "3 White Boards\n\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 265",
+                "Side to Side\n      - 337"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 60x24"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/LOW_118.png"
+        }
+    },
+    "MAR": {
+        "MAR 168": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "Powered Speaker",
+                "(5,000 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 192",
+                "White Board\n      - 120",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 311",
+                "Side to Side\n      - 231"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (5 Left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MAR+168/schematic_thumbnail/MAR168_schematic.png"
+        }
+    },
+    "MGH": {
+        "MGH 030": {
+            "Type": "Computer Classroom",
+            "Equipment": [
+                "2 (3,500 Lumens) Video/Data Projectors"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "2 Pull-Down Screens",
+                "White Board\n      - 288x48"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "45 Computer Tables",
+                "45 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MGH_030.png"
+        },
+        "MGH 044": {
+            "Type": "Computer Classroom",
+            "Equipment": [
+                "2 (3,500 Lumens) Video/Data Projectors"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "2 Pull-Down Screens",
+                "White Board\n      - 288x48"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "45 Computer Tables",
+                "45 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MGH_044.png"
+        },
+        "MGH 058             (Active Learning Classroom)": {
+            "Type": "Active Learning Classroom",
+            "Equipment": [
+                "Blu-ray Player",
+                "AirMedia Presentation Gateway",
+                "2 HD Camera Systems",
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "4 Wireless Microphone Components",
+                "Document Camera",
+                "Apple TV",
+                "DVD/VHS Player"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen",
+                "White Board\n      - 288x48"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Captain\"s Chair",
+                "Stool"
+            ],
+            "Student Seating": [
+                "39 Portable White Boards\n\n      - 24x17",
+                "18 Tables\n\n      - 58x27",
+                "36 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MGH_058.png"
+        },
+        "MGH 074": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "Blu-ray Player",
+                "(3,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 216",
+                "WiFi",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 250",
+                "Side to Side\n      - 282"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "11 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+074/schematic_thumbnail/MGH074_schematic.png"
+        },
+        "MGH 082A": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Apple TV",
+                "Document Camera",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Carpet\n\n      (as shown)",
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board\n      - 144",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 332",
+                "Mounted Projector To Screen\n      - 184",
+                "Side to Side\n      - 302"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "11 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+082A/schematic_thumbnail/MGH082A_schematic.png"
+        },
+        "MGH 085": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "Powered Speaker",
+                "(4,000 Lumens) Video/Data Projector",
+                "DVD/VHS Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 144",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 290",
+                "Side to Side\n      - 181"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "20 Plain Chairs",
+                "8 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+085/schematic_thumbnail/MGH085_schematic.png"
+        },
+        "MGH 097": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "2 White Boards\n\n      - 72",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Pull-Down Screen",
+                "Table",
+                "Wheeled Chair With Arms",
+                "White Board"
+            ],
+            "Student Seating": [
+                "15 Chairs",
+                "8 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MGH_097.png"
+        },
+        "MGH 228": {
+            "Type": "Case Study Classroom",
+            "Equipment": [
+                "Apple TV",
+                "Document Camera",
+                "Gooseneck Microphone",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Blu-ray Player",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 84x84",
+                "White Board\n      - 222",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 294",
+                "Front to Back\n      - 303",
+                "Mounted Projector To Screen\n      - 191",
+                "Side to Side\n      - 446"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "3 Fixed Tables\n\n\n      (various lengths)",
+                "35 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+228/schematic_thumbnail/MGH228_schematic.png"
+        },
+        "MGH 231": {
+            "Type": "Case Study Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Apple TV",
+                "HD Camera System",
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Wireless Lavalier Microphone",
+                "Blu-ray Player"
+            ],
+            "Furnishings": [
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 96x96",
+                "White Board\n      - 216",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 504",
+                "Front to Back\n      - 508",
+                "Mounted Projector To Screen\n      - 273",
+                "Side to Side\n      - 428"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "5 Fixed Tables\n\n\n      (various lengths)",
+                "60 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+231/schematic_thumbnail/MGH231_schematic.png"
+        },
+        "MGH 234": {
+            "Type": "Case Study Classroom",
+            "Equipment": [
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Blu-ray Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 84x84",
+                "White Board\n      - 222",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen",
+                "Front to Back\n      - 295",
+                "Mounted Projector To Screen\n      - 177",
+                "Side to Side\n      - 436"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "3 Fixed Tables\n\n\n      (various lengths)",
+                "35 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+234/schematic_thumbnail/MGH234_schematic.png"
+        },
+        "MGH 238": {
+            "Type": "Case Study Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Desktop Computer",
+                "Blu-ray Player",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 84x84",
+                "White Board\n      - 222",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen",
+                "Front to Back\n      - 295",
+                "Mounted Projector To Screen\n      - 177",
+                "Side to Side\n      - 448"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "3 Fixed Tables\n\n\n      (various lengths)",
+                "35 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+238/schematic_thumbnail/MGH238_schematic.png"
+        },
+        "MGH 241": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray Player",
+                "Desktop Computer",
+                "Document Camera",
+                "HD Camera System",
+                "Wireless Lavalier Microphone",
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "AirMedia Presentation Gateway",
+                "Wireless Handheld Microphone"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Motorized Screens\n\n      - 120x120",
+                "White Board\n      - 336",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 499",
+                "Front to Back\n      - 499",
+                "Mounted Projector To Screen\n      - 222",
+                "Side to Side\n      - 591"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Table\n      - 36x96",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "90 Plain Chairs",
+                "40 Tables\n\n      - 24x60",
+                "3 Tables\n\n      - 24x36"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+241/schematic_thumbnail/MGH241_schematic.png"
+        },
+        "MGH 242": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "Document Camera",
+                "AirMedia Presentation Gateway",
+                "(3,500 Lumens) Video/Data Projector",
+                "Gooseneck Microphone",
+                "Apple TV",
+                "Blu-ray Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 84x84",
+                "White Board\n      - 216",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 296",
+                "Mounted Projector To Screen\n      - 195",
+                "Side to Side\n      - 302"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Table\n      - 24x36",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "30 Plain Chairs",
+                "13 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+242/schematic_thumbnail/MGH242_schematic.png"
+        },
+        "MGH 248": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "AirMedia Presentation Gateway",
+                "Blu-ray Player",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 216",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 217",
+                "Side to Side\n      - 293"
+            ],
+            "Instructor Area": [
+                "Table\n      - 24x36",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "8 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MGH_248.png"
+        },
+        "MGH 251": {
+            "Type": "Case Study Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Apple TV",
+                "Blu-ray Player",
+                "Gooseneck Microphone",
+                "Desktop Computer",
+                "HD Camera System",
+                "Wireless Lavalier Microphone",
+                "(3,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 108x108",
+                "White Board\n      - 192",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 389",
+                "Front to Back\n      - 389",
+                "Mounted Projector To Screen\n      - 223",
+                "Side to Side\n      - 416"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "4 Fixed Tables\n\n\n      (various lengths)",
+                "40 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/101251.png"
+        },
+        "MGH 253": {
+            "Type": "Breakout Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 120",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 149",
+                "Side to Side\n      - 168"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "10 Plain Chair With Armss",
+                "3 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/101253.png"
+        },
+        "MGH 254": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray Player",
+                "Document Camera",
+                "Desktop Computer",
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "(3,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 96x96",
+                "White Board\n      - 224",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 382",
+                "Mounted Projector To Screen\n      - 251",
+                "Side to Side\n      - 314"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "35 Plain Chairs",
+                "13 Tables\n\n      - 24x60",
+                "3 Tables\n\n      - 24x36"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MGH_254.png"
+        },
+        "MGH 255": {
+            "Type": "Breakout Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 120",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 121",
+                "Side to Side\n      - 168"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "8 Plain Chair With Armss",
+                "2 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/101255.png"
+        },
+        "MGH 271": {
+            "Type": "Case Study Classroom",
+            "Equipment": [
+                "Apple TV",
+                "Blu-ray Player",
+                "HD Camera System",
+                "Wireless Lavalier Microphone",
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x120",
+                "White Board\n      - 216",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 405",
+                "Front to Back\n      - 405",
+                "Mounted Projector To Screen\n      - 204",
+                "Side to Side\n      - 419"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "4 Fixed Tables\n\n\n      (various lengths)",
+                "40 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+271/schematic_thumbnail/MGH271_schematic.png"
+        },
+        "MGH 278": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "DVD/VHS Player",
+                "Powered Speaker",
+                "(4,000 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 72",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 276",
+                "Side to Side\n      - 167"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "20 Plain Chairs",
+                "8 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+278/schematic_thumbnail/MGH278_schematic.png"
+        },
+        "MGH 282": {
+            "Type": "Breakout Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 214",
+                "Side to Side\n      - 120"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "10 Plain Chair With Armss",
+                "4 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+282/schematic_thumbnail/MGH282_schematic.png"
+        },
+        "MGH 284": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Desktop Computer",
+                "Document Camera",
+                "Apple TV",
+                "Blu-ray Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 84x84",
+                "White Board\n      - 204",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 310",
+                "Mounted Projector To Screen\n      - 264",
+                "Side to Side\n      - 277"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "Table\n      - 36x96",
+                "6 Tables\n\n      - 24x60",
+                "Table\n      - 24x36"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+284/schematic_thumbnail/MGH284_schematic.png"
+        },
+        "MGH 286": {
+            "Type": "Breakout Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 219",
+                "Side to Side\n      - 120"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "10 Plain Chair With Armss",
+                "4 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+286/schematic_thumbnail/MGH286_schematic.png"
+        },
+        "MGH 287": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Gooseneck Microphone",
+                "AirMedia Presentation Gateway",
+                "Blu-ray Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Apple TV",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 96x96",
+                "White Board\n      - 180",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 387",
+                "Mounted Projector To Screen\n      - 219",
+                "Side to Side\n      - 325"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair With Arms"
+            ],
+            "Student Seating": [
+                "35 Plain Chairs",
+                "15 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+287/schematic_thumbnail/MGH287_schematic.png"
+        },
+        "MGH 288": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "Blu-ray Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 84x84",
+                "White Board\n      - 198",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 281",
+                "Mounted Projector To Screen\n      - 228",
+                "Side to Side\n      - 277"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "Table\n      - 36x86",
+                "6 Tables\n\n      - 24x60",
+                "Table\n      - 24x36"
+            ],
+            "Picture": "//www.cte.uw.edu/room/MGH+288/schematic_thumbnail/MGH288_schematic.png"
+        },
+        "MGH 289": {
+            "Type": "Breakout Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 72",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 165",
+                "Side to Side\n      - 162"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "10 Plain Chair With Armss",
+                "3 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/101289.png"
+        },
+        "MGH 291": {
+            "Type": "Breakout Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 181",
+                "Side to Side\n      - 160"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms"
+            ],
+            "Student Seating": [
+                "12 Plain Chair With Armss",
+                "4 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/101291.png"
+        },
+        "MGH 295": {
+            "Type": "Classroom",
+            "Equipment": [],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 96x96",
+                "White Board\n      - 180",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 383",
+                "Mounted Projector To Screen\n      - 260",
+                "Side to Side\n      - 324"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Wheeled Chair"
+            ],
+            "Student Seating": [
+                "35 Plain Chairs",
+                "15 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/101295.png"
+        }
+    },
+    "MEB": {
+        "MEB 102": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "Document Camera",
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 246",
+                "Clock",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 283",
+                "Side to Side\n      - 199"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "20 Plain Chairs",
+                "4 Tables\n\n      - 36x96"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/190102.png"
+        },
+        "MEB 103": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "LED Hybrid Data Projector",
+                "Apple TV",
+                "Blu-Ray Player"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 276",
+                "Clock",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 378",
+                "Side to Side\n      - 311"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "55 Flip-Up Tablet-Arm Chairs\n\n\n      (5 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/190103.png"
+        }
+    },
+    "MLR": {
+        "MLR 301": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Wireless Lavalier  Microphone",
+                "Desktop Computer",
+                "Blu-ray Player",
+                "(6,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "Clock",
+                "Ethernet",
+                "Motorized Screen\n      - 168x240",
+                "White Board\n      - 236\n\n      (lighted)",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen\n      - 578",
+                "Front to Back\n      - 637",
+                "Side to Side\n      - 340"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "135 Fixed Tablet-Arm Chairs\n\n\n      (15 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MLR_301.png"
+        },
+        "MLR 316": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 240",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 233",
+                "Side to Side\n      - 303"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "35 Tablet-Arm Chairs\n\n\n      (1 is left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/083316.png"
+        }
+    },
+    "MOR": {
+        "MOR 116": {
+            "Type": "Classroom",
+            "Equipment": [],
+            "Furnishings": [
+                "Chalk Board\n      - 273",
+                "Chalk Board\n      - 190",
+                "Clock",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 374",
+                "Side to Side\n      - 206"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "30 Plain Chairs",
+                "10 Tables\n\n      - 24x72"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/140116.png"
+        }
+    },
+    "MUE": {
+        "MUE 153": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Wireless Lavalier Microphone",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Booth\n\n      ((MUE 177))",
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x192\n\n      (switch on lectern)",
+                "Portable Chalk Board\n      - 96",
+                "White Board\n      - 288x48",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 424",
+                "Front to Back\n      - 422",
+                "Side to Side\n      - 378"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "95 Tablet-Arm Theater Seats\n\n\n      (7 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/273153.png"
+        },
+        "MUE 154": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Powered Speaker",
+                "DVD/VHS Player",
+                "Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 286",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 281",
+                "Side to Side\n      - 354"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "30 Plain Chairs",
+                "9 Tables\n\n      - 24x96"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/273154.png"
+        },
+        "MUE 155": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray Player",
+                "Digital Video Processor"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 287",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Pull-Down Screens\n\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 281",
+                "Side to Side\n      - 354"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "45 Tablet-Arm Chairs\n\n\n      (2 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/273155.png"
+        }
+    },
+    "MUS": {
+        "MUS 212": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Wheeled Cart with Television monitor and DVD/VHS player"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 144",
+                "Chalk Board\n      - 131\n\n      (Permanent Music Staff Lines)",
+                "Chalk Board\n      - 72",
+                "Clock",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 244",
+                "Side to Side\n      - 226"
+            ],
+            "Instructor Area": [
+                "2 Plain Chairs",
+                "Upright Piano\n\n      (Music)"
+            ],
+            "Student Seating": [
+                "4 Folding Tables\n\n      - 30x72",
+                "15 Plain Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/MUS_212.png"
+        },
+        "MUS 216": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Wheeled Cart with Television monitor and VHS player"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 203\n\n      (Permanent Music Staff Lines)",
+                "Chalk Board\n      - 202\n\n      (Permanent Music Staff Lines)",
+                "Chalk Board\n      - 191\n\n      (Permanent Music Staff Lines)",
+                "Clock",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 270",
+                "Side to Side\n      - 228"
+            ],
+            "Instructor Area": [
+                "Grand Piano\n\n      (Music)",
+                "Piano Bench\n\n      (Music)",
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (1 is left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/161216.png"
+        },
+        "MUS 219": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Wheeled Cart with Television monitor and DVD/VHS player"
+            ],
+            "Furnishings": [
+                "3 Chalk Boards\n\n      - 203\n\n      (Permanent Music Staff Lines)",
+                "Clock",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 276",
+                "Side to Side\n      - 227"
+            ],
+            "Instructor Area": [
+                "Grand Piano\n\n      (Music)",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/161219.png"
+        },
+        "MUS 223": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Wheeled Cart with Television monitor and DVD/VHS player"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 274\n\n      (Permanent Music Staff Lines)",
+                "Chalk Board\n      - 202\n\n      (Permanent Music Staff Lines)",
+                "Chalk Board\n      - 78",
+                "Clock",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 420",
+                "Side to Side\n      - 227"
+            ],
+            "Instructor Area": [
+                "Folding Table\n      - 36x96",
+                "Plain Chair",
+                "Upright Piano\n\n      (Music)"
+            ],
+            "Student Seating": [
+                "45 Tablet-Arm Chairs\n\n\n      (1 is left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/161223.png"
+        }
+    },
+    "OTB": {
+        "OTB 014": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "(4,000 Lumens) Video/Data Projector",
+                "2 Powered Speakers",
+                "DVD/VHS Player",
+                "Document Camera",
+                "Wireless Lavalier Microphone",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "Chalk Board\n      - 144",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen",
+                "Pull-Down Screen",
+                "Treated Wall Screen",
+                "3 White Boards\n\n      - 47",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen\n      - 616",
+                "Front to Back\n      - 668",
+                "Side to Side\n      - 349"
+            ],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "100 Fixed Tablet-Arm Chairs\n\n\n      (11 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/218014.png"
+        }
+    },
+    "OUG": {
+        "OUG 136             (Active Learning Classroom)": {
+            "Type": "Active Learning Classroom",
+            "Equipment": [
+                "12 (55\") Flat Panel Displays",
+                "Wireless Handheld Microphone",
+                "10 NEC Monitor Speakers",
+                "Wireless Lavalier Microphone",
+                "Document Camera",
+                "HD Camera System",
+                "Video Conferencing System",
+                "Desktop Computer",
+                "Gooseneck Mic"
+            ],
+            "Furnishings": [],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "90 Chairs",
+                "10 Tables\n\n\n      (9 seats)"
+            ],
+            "Picture": "//www.cte.uw.edu/room/OUG+136/schematic_thumbnail/OUG+136+schematic.png"
+        },
+        "OUG 141             (Active Learning Classroom)": {
+            "Type": "Active Learning Classroom",
+            "Equipment": [
+                "Wireless Handheld Microphone",
+                "Desktop Computer",
+                "Document Camera",
+                "Video Conferencing System",
+                "7 (55\") Flat Panel Displays",
+                "7 NEC Monitor Speakers",
+                "Gooseneck Mic",
+                "HD Camera System"
+            ],
+            "Furnishings": [
+                ""
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "60 Chairs",
+                "7 Tables\n\n\n      (9 seats)"
+            ],
+            "Picture": "//www.cte.uw.edu/room/OUG+141/schematic_thumbnail/OUG_141+-+schematic+with+Numbers.png"
+        }
+    },
+    "PCAR": {
+        "PCAR 192": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "3 Blu-ray/DVD Players",
+                "Gooseneck Microphone",
+                "3 Wireless Handheld Microphones",
+                "2 Document Cameras",
+                "Wireless Lavalier Microphone",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Motorized Screen",
+                "White Board",
+                "WiFi"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "12 Fixed Tables\n\n\n      (U-shaped)",
+                "166 Fixed Tablet-Arm Chairs",
+                "84 Wheeled Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/PCAR_192.png"
+        }
+    },
+    "PAR": {
+        "PAR 106": {
+            "Type": "Classroom",
+            "Equipment": [
+                "2 Public Address Speakers",
+                "Blu-Ray DVD Player",
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 144",
+                "Chalk Board\n      - 96",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 200",
+                "Side to Side\n      - 282"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs\n\n\n      (3 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/009106.png"
+        },
+        "PAR 112": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(65\") Flat Panel Display",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 192",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 271",
+                "Front to Back\n      - 279",
+                "Side to Side\n      - 263"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 18x60"
+            ],
+            "Student Seating": [
+                "20 Plain Chairs",
+                "3 Tables\n\n      - 18x96",
+                "4 Tables\n\n      - 18x72",
+                "2 Tables\n\n      - 18x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/009112.png"
+        },
+        "PAR 120": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(65\") Flat Panel Display",
+                "Wheeled Cart with Television monitor"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 192",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Back to Screen\n      - 237",
+                "Front to Back\n      - 247",
+                "Side to Side\n      - 215"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x72"
+            ],
+            "Student Seating": [
+                "20 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/009120.png"
+        }
+    },
+    "PAA": {
+        "PAA A102             (Ronald Geballe Auditorium)": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "PTZ Camera",
+                "Desktop Computer",
+                "AirMedia Presentation Gateway",
+                "Blu-ray Player",
+                "Document Camera",
+                "Wireless Lavalier Microphone",
+                "(8,500 Lumens) Video/Data Projector",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "Carpet\n\n      (Back and aisles)",
+                "3 Clock On Clock And Bells",
+                "Ethernet",
+                "Motorized Screen\n      - 240x180",
+                "12 Moveable Chalk Boards\n\n      - 114x48\n\n      (8 sliding panels)",
+                "Stepped Floor",
+                "Stool",
+                "Table\n      - 24x60",
+                "WiFi"
+            ],
+            "Dimensions": [
+                ""
+            ],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "245 Fixed Folding Tablet-Arm Chairs\n\n\n      (25 left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/271A102.png"
+        },
+        "PAA A110": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "AirMedia Presentation Gateway",
+                "Wireless Lavalier  Microphone",
+                "Desktop Computer",
+                "(6,000 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Apple TV",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Carpet\n\n      (Back and aisles)",
+                "3 Clock On Clock And Bells",
+                "Ethernet",
+                "Motorized Screen\n      - 240x180",
+                "6 Moveable Chalk Boards\n\n      - 113x48\n\n      (4 sliding panels)",
+                "Stepped Floor",
+                "Stool",
+                "Table\n      - 24x60",
+                "WiFi"
+            ],
+            "Dimensions": [
+                ""
+            ],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "80 Fixed Folding Tablet-Arm Chairs\n\n\n      (10 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/271A110.png"
+        },
+        "PAA A114": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "(6,000 Lumens) Video/Data Projector",
+                "Apple TV",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "- 36x48",
+                "Carpet\n\n      (Back and aisles)",
+                "3 Clock On Clock And Bells",
+                "Ethernet",
+                "Motorized Screen\n      - 240x180",
+                "6 Moveable Chalk Boards\n\n      - 113x48\n\n      (4 sliding panels)",
+                "Stepped Floor",
+                "Stool",
+                "Table",
+                "WiFi"
+            ],
+            "Dimensions": [
+                ""
+            ],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "80 Fixed Folding Tablet-Arm Chairs\n\n\n      (10 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/271A114.png"
+        },
+        "PAA A118": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Blu-ray Player",
+                "Wireless Lavalier Microphone",
+                "Desktop Computer",
+                "Document Camera",
+                "AirMedia Presentation Gateway",
+                "(6,000 Lumens) Video/Data Projector",
+                "PTZ Camera",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "- 36x48",
+                "Carpet\n\n      (Back and aisles)",
+                "3 Clock On Clock And Bells",
+                "Ethernet",
+                "Motorized Screen\n      - 240x180",
+                "12 Moveable Chalk Boards\n\n      - 113x48\n\n      (8 sliding panels)",
+                "Stepped Floor",
+                "Stool",
+                "Table",
+                "WiFi"
+            ],
+            "Dimensions": [
+                ""
+            ],
+            "Instructor Area": [
+                "Electronic Podium"
+            ],
+            "Student Seating": [
+                "195 Fixed Folding Tablet-Arm Chairs\n\n\n      (17 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/PAA_A118.png"
+        },
+        "PAA A212": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray Player",
+                "Apple TV",
+                "Document Camera",
+                "AirMedia Presentation Gateway",
+                "(3,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "Table\n      - 24x72",
+                "White Board\n      - 116x48",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 374",
+                "Side to Side\n      - 116"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x48"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "7 Tables\n\n      - 24x48"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/271A212.png"
+        }
+    },
+    "PAB": {
+        "PAB B109": {
+            "Type": "Classroom",
+            "Equipment": [
+                "2 (3,500 Lumens) Video/Data Projectors",
+                "Blu-ray Player",
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 332",
+                "Chalk Board\n      - 188",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "2 Pull-Down Screens\n\n      - 96x96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 240",
+                "Side to Side\n      - 476"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "12 Tables\n\n      - 30x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/271B109.png"
+        },
+        "PAB B164": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray Player",
+                "AirMedia Presentation Gateway"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 140",
+                "Chalk Board\n      - 116",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 364",
+                "Side to Side\n      - 256"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 60x30"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "10 Tables\n\n      - 72x24"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/271B164.png"
+        }
+    },
+    "RAI": {
+        "RAI 107": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display",
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 288",
+                "Chalk Board\n      - 120",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 354",
+                "Side to Side\n      - 209"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "Table\n      - 24x120",
+                "10 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/RAI_107.png"
+        },
+        "RAI 109": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 288",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 294",
+                "Side to Side\n      - 218"
+            ],
+            "Instructor Area": [
+                "Folding Table\n      - 36x72",
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "20 Plain Chairs",
+                "10 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/RAI_109.png"
+        },
+        "RAI 116": {
+            "Type": "Classroom",
+            "Equipment": [
+                "LED Hybrid Data Projector",
+                "AirMedia Presentation Gateway",
+                "Document Camera",
+                "Apple TV",
+                "Blu-Ray DVD Player"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 288",
+                "Chalk Board\n      - 144",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 315",
+                "Side to Side\n      - 219"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "35 Tablet-Arm Chairs\n\n\n      (2 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/045116.png"
+        },
+        "RAI 121": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Booth\n\n      ((RAI 121A))",
+                "Carpet\n\n      (as shown)",
+                "Chalk Board\n      - 288",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 144x192",
+                "WiFi\n\n      (located in corridor)"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 375",
+                "Front to Back\n      - 435",
+                "Side to Side\n      - 316"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Folding Table\n      - 30x72",
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "49 Fixed Folding Tablet-Arm Chairs\n\n\n      (5 are left-handed)",
+                "26 Folding Tablet-Arm Chairs\n\n\n      (4 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/045121.png"
+        }
+    },
+    "SAV": {
+        "SAV 130": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "30 Plain Chairs",
+                "15 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_130.png"
+        },
+        "SAV 131": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "Writing Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_131.png"
+        },
+        "SAV 132": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "35 Plain Chairs",
+                "18 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_132.png"
+        },
+        "SAV 136": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_136.png"
+        },
+        "SAV 137": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_137.png"
+        },
+        "SAV 138": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "35 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_138.png"
+        },
+        "SAV 139": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_139.png"
+        },
+        "SAV 140": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Blu-ray Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "15 Plain Chairs",
+                "8 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_140.png"
+        },
+        "SAV 141": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "Apple TV",
+                "Blu-ray Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "AirMedia Presentation Gateway",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "10 Plain Chairs",
+                "4 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_141.png"
+        },
+        "SAV 155": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "30 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_155.png"
+        },
+        "SAV 156": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_156.png"
+        },
+        "SAV 157": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_157.png"
+        },
+        "SAV 158": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_158.png"
+        },
+        "SAV 162": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "25 Plain Chairs",
+                "13 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_162.png"
+        },
+        "SAV 164": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "25 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_164.png"
+        },
+        "SAV 166": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_166.png"
+        },
+        "SAV 167": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Apple TV",
+                "AirMedia Presentation Gateway",
+                "Blu-ray Player"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "15 Plain Chairs",
+                "8 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_167.png"
+        },
+        "SAV 168": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Desktop Computer"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table"
+            ],
+            "Student Seating": [
+                "30 Plain Chairs",
+                "15 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_168.png"
+        },
+        "SAV 169": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Apple TV"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen",
+                "White Board"
+            ],
+            "Dimensions": [],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "15 Plain Chairs",
+                "8 Tables"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SAV_169.png"
+        }
+    },
+    "SIG": {
+        "SIG 134": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Wireless Lavalier Mic Transmitter",
+                "PTZ Camera",
+                "Desktop Computer",
+                "Blu-ray/DVD Player",
+                "Document Camera",
+                "(6,500 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Booth\n\n      ((SIG 136A))",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x216",
+                "White Board\n      - 191",
+                "4 White Boards\n\n      - 47"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 575",
+                "Front to Back\n      - 615",
+                "Side to Side\n      - 385"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Stool"
+            ],
+            "Student Seating": [
+                "150 Fixed Folding Tablet-Arm Chairs\n\n\n      (11 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SIG_134.png"
+        }
+    },
+    "SMI": {
+        "SMI 102": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "Laptop Computer",
+                "Wireless Lavalier Microphone",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 306",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "2 Pull-Down Screens\n\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 451",
+                "Mounted Projector To Screen",
+                "Side to Side\n      - 373"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "90 Fixed Folding Tablet-Arm Chairs\n\n\n      (9 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/SMI_102.png"
+        },
+        "SMI 105": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 297",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 335",
+                "Side to Side\n      - 357"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Flip-Up Tablet-Arm Chairs\n\n\n      (5 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/123105.png"
+        },
+        "SMI 107": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 192",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 285",
+                "Side to Side\n      - 313"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "2 Fixed Tables\n\n\n      (U-shaped)",
+                "30 Plain Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/123107.png"
+        },
+        "SMI 109": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Chalk Board\n      - 252",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 172",
+                "Side to Side\n      - 312"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "15 Plain Chairs",
+                "Table\n      - 48x216"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/123109.png"
+        },
+        "SMI 111": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Chalk Board\n      - 192",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 175",
+                "Side to Side\n      - 295"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "15 Plain Chairs",
+                "Table\n      - 48x216"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/123111.png"
+        },
+        "SMI 115": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Projection Package with Data Projector, Powered Speaker, and Laptop Connection"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 288",
+                "Chalk Board\n      - 240",
+                "Clock On Clock And Bell",
+                "Pull-Down Screen\n      - 70x70",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 300",
+                "Side to Side\n      - 392"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "4 Fixed Tables\n\n\n      (U-shaped)",
+                "35 Plain Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/123115.png"
+        },
+        "SMI 120": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "Desktop Computer",
+                "Wireless Lavalier Microphone",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Booth\n\n      ((SMI 120B))",
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 120x240",
+                "White Board\n      - 96\n\n      (lighted)",
+                "White Board\n      - 48\n\n      (lighted)",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 712",
+                "Front to Back\n      - 783",
+                "Mounted Projector To Screen\n      - 223",
+                "Side to Side\n      - 529"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "265 Tablet-Arm Theater Seats\n\n\n      (26 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/123120.png"
+        }
+    },
+    "SWS": {
+        "SWS 026": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 192",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 352",
+                "Side to Side\n      - 222"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs\n\n\n      (4 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/240026.png"
+        },
+        "SWS 030": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 240",
+                "White Board\n      - 96",
+                "White Board\n      - 72",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 352",
+                "Side to Side\n      - 230"
+            ],
+            "Instructor Area": [
+                "Plain Chair With Arms",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/240030.png"
+        },
+        "SWS 032": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 240",
+                "White Board\n      - 192",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 351",
+                "Side to Side\n      - 232"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs\n\n\n      (4 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/240032.png"
+        },
+        "SWS 036": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(65\") Flat Panel Display",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 144",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 201",
+                "Side to Side\n      - 185"
+            ],
+            "Instructor Area": [
+                "Plain Chair"
+            ],
+            "Student Seating": [
+                "10 Plain Chairs",
+                "Table\n      - 54x108",
+                "10 Tablet-Arm Chairs"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/240036.png"
+        },
+        "SWS 038": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player"
+            ],
+            "Furnishings": [
+                "Carpet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 192",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 226",
+                "Side to Side\n      - 352"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "40 Tablet-Arm Chairs\n\n\n      (4 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/240038.png"
+        },
+        "SWS 125": {
+            "Type": "Seminar Room",
+            "Equipment": [
+                "(65\") Flat Panel Display"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 192",
+                "White Board\n      - 120",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 269",
+                "Side to Side\n      - 149"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 30x60"
+            ],
+            "Student Seating": [
+                "15 Plain Chairs",
+                "4 Tables\n\n      - 24x60"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/240125.png"
+        }
+    },
+    "OBS": {
+        "OBS 103             (designated for exclusive use for English Language program by UWEO)": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Wheeled Cart with Television monitor and VHS player"
+            ],
+            "Furnishings": [
+                "Carpet\n\n      (as shown)",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 96x96",
+                "White Board\n      - 249\n\n      (lighted)"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 387",
+                "Side to Side\n      - 253"
+            ],
+            "Instructor Area": [
+                "6 Plain Chairs",
+                "Table\n      - 36x96"
+            ],
+            "Student Seating": [
+                "40 Fixed Tablet-Arm Chairs\n\n\n      (1 is left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/005103.png"
+        }
+    },
+    "THO": {
+        "THO 101": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Document Camera",
+                "Blu-ray/DVD Player",
+                "Wireless Lavalier  Microphone",
+                "Desktop Computer",
+                "(10,000 Lumens) Video/Data Projector"
+            ],
+            "Furnishings": [
+                "Booth\n\n      ((THO 101A))",
+                "Clock",
+                "Ethernet",
+                "Motorized Screen\n      - 204x132",
+                "2 White Boards\n\n      - 60",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Booth Front To Screen\n      - 528",
+                "Front to Back\n      - 572",
+                "Side to Side\n      - 339"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "130 Fixed Tablet-Arm Chairs\n\n\n      (9 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/THO_101.png"
+        },
+        "THO 119": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Document Camera",
+                "Projection Package with Powered Speaker, Laptop Connection"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 180",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 333",
+                "Side to Side\n      - 240"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Fixed Folding Tablet-Arm Chairs\n\n\n      (6 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/144119.png"
+        },
+        "THO 125": {
+            "Type": "Auditorium",
+            "Equipment": [
+                "Wireless Lavalier Microphone",
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Boothlet",
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Motorized Screen\n      - 84x168",
+                "White Board\n      - 210",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Boothlet Front To Screen\n      - 476",
+                "Front to Back\n      - 541",
+                "Side to Side\n      - 240"
+            ],
+            "Instructor Area": [
+                "Electronic Podium",
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "80 Fixed Folding Tablet-Arm Chairs\n\n\n      (7 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/144125.png"
+        },
+        "THO 134": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 180",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 261",
+                "Side to Side\n      - 337"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Flip-Up Tablet-Arm Chairs\n\n\n      (5 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/144134.png"
+        },
+        "THO 135": {
+            "Type": "Classroom",
+            "Equipment": [
+                "(3,500 Lumens) Video/Data Projector",
+                "Blu-ray/DVD Player",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Clock On Clock And Bell",
+                "Ethernet",
+                "Pull-Down Screen\n      - 70x70",
+                "White Board\n      - 108",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 322",
+                "Side to Side\n      - 264"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "50 Fixed Folding Tablet-Arm Chairs\n\n\n      (5 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/144135.png"
+        }
+    },
+    "WFS": {
+        "WFS 201": {
+            "Type": "Classroom",
+            "Equipment": [
+                "Blu-ray/DVD Player",
+                "(3,500 Lumens) Video/Data Projector",
+                "Document Camera"
+            ],
+            "Furnishings": [
+                "Chalk Board\n      - 192",
+                "Clock",
+                "Pull-Down Screen\n      - 96x96",
+                "WiFi"
+            ],
+            "Dimensions": [
+                "Front to Back\n      - 485",
+                "Side to Side\n      - 282"
+            ],
+            "Instructor Area": [
+                "Plain Chair",
+                "Table\n      - 24x60"
+            ],
+            "Student Seating": [
+                "72 Fixed Tablet-Arm Chairs\n\n\n      (6 are left-handed)"
+            ],
+            "Picture": "//www.cte.uw.edu/pdf/classrooms/206201.png"
+        }
+    }
+}

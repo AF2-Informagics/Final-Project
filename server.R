@@ -3,7 +3,7 @@ library(dplyr)
 library(ggplot2)
 library(DT)
 
-# setwd("~/Desktop/INFO 201/Final-Project")
+setwd("~/Documents/info201_sp17/Final-Project/")
 source(file = "scripts/dataframe.R")
 
 

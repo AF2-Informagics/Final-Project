@@ -7,8 +7,9 @@ df <- read.csv(file = "data/schedule.csv", stringsAsFactors = FALSE)
 
 df$StartTime_new <- ifelse((df$StartTime < 700 | grepl("P",df$EndTime)), df$StartTime + 1200, df$StartTime)
 df$EndTime_new <- ifelse((df$StartTime < 700 | (df$StartTime <= 1200 & as.integer(gsub("([0-9]+).*$", "\\1", df$EndTime)) < df$StartTime) | grepl("P", df$EndTime) | df$StartTime > 1200), as.integer(gsub("([0-9]+).*$", "\\1", df$EndTime)) + 1200, suppressWarnings(as.integer(df$EndTime)))
-df$StartTime_new <- substr(as.POSIXct(sprintf("%04.0f", df$StartTime_new), format='%H%M'),12,16)
-df$EndTime_new <- substr(as.POSIXct(sprintf("%04.0f", df$EndTime_new), format='%H%M'),12,16)
+df$StartTime_new <- as.POSIXct(sprintf("%04.0f", df$StartTime_new), format='%H%M')
+df$EndTime_new <- as.POSIXct(sprintf("%04.0f", df$EndTime_new), format='%H%M')
+df <- df %>% mutate(time_diff = df$EndTime_new - df$StartTime_new)
 
 building_info <- fromJSON("data/parse.json")
 building_info <- as.data.frame(building_info, stringsAsFactors = FALSE)

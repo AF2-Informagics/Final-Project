@@ -19,8 +19,8 @@ courses.df <- df %>% select(Course) %>% filter(Course != "")
 
 # split the courses name by the final space, e.g. 'SOC W 308' to 'SOC W' and '308'
 courses.split <- data.frame(do.call('rbind', strsplit(as.character(courses.df$Course), ' (?=[^ ]+$)', perl=TRUE)), stringsAsFactors = FALSE)
-within(df, courses.df$Course<-data.frame(do.call('rbind', strsplit(as.character(courses.df$Course), ' (?=[^ ]+$)', perl=TRUE)), stringsAsFactors =  FALSE))
-within(df, FOO<-data.frame(do.call('rbind', strsplit(as.character(FOO), '|', fixed=TRUE))))
+df.new <- within(df, Course<-data.frame(do.call('rbind', strsplit(as.character(Course), ' (?=[^ ]+$)', perl=TRUE)), stringsAsFactors =  FALSE))
+
 
 colnames(courses.split) <- c("Course", "Number")
 

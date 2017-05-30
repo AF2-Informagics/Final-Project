@@ -12,7 +12,7 @@ df$EndTime_new <- as.POSIXct(sprintf("%04.0f", df$EndTime_new), format='%H%M')
 df <- df %>% mutate(time_diff = df$EndTime_new - df$StartTime_new)
 
 building_info <- fromJSON("data/parse.json")
-building_info <- as.data.frame(building_info, stringsAsFactors = FALSE)
+# building_info <- as.data.frame(building_info, stringsAsFactors = FALSE)
 
 rooms <- df %>% select(Building, Room) %>% group_by(Building) %>% filter(Building != "")
 courses.df <- df %>% select(Course) %>% filter(Course != "")

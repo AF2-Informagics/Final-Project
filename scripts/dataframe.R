@@ -38,3 +38,6 @@ departments <- unique(courses.split$Course[courses.split$Course != ""])
 
 rooms.list <- sapply(buildings, GetRoom)
 courses.list <- sapply(departments, GetCourse)
+
+df$StartTime_new <- substr(as.POSIXct(sprintf("%04.0f", df$StartTime_new), format='%H%M'),12,16)
+df$EndTime_new <- substr(as.POSIXct(sprintf("%04.0f", df$EndTime_new), format='%H%M'),12,16)

@@ -3,7 +3,7 @@ library(dplyr)
 library(stringr)
 library(jsonlite)
 
-df <- read.csv(file = "data/schedule.csv", stringsAsFactors = FALSE)
+df <- read.csv(file = "data/schedule_new.csv", stringsAsFactors = FALSE)
 
 df$StartTime_new <- ifelse((df$StartTime < 700 | grepl("P",df$EndTime)), df$StartTime + 1200, df$StartTime)
 df$EndTime_new <- ifelse((df$StartTime < 700 | (df$StartTime <= 1200 & as.integer(gsub("([0-9]+).*$", "\\1", df$EndTime)) < df$StartTime) | grepl("P", df$EndTime) | df$StartTime > 1200), as.integer(gsub("([0-9]+).*$", "\\1", df$EndTime)) + 1200, suppressWarnings(as.integer(df$EndTime)))
@@ -20,7 +20,6 @@ courses.df <- df %>% select(Course) %>% filter(Course != "")
 # split the courses name by the final space, e.g. 'SOC W 308' to 'SOC W' and '308'
 courses.split <- data.frame(do.call('rbind', strsplit(as.character(courses.df$Course), ' (?=[^ ]+$)', perl=TRUE)), stringsAsFactors = FALSE)
 df.new <- within(df, Course<-data.frame(do.call('rbind', strsplit(as.character(Course), ' (?=[^ ]+$)', perl=TRUE)), stringsAsFactors =  FALSE))
-
 
 colnames(courses.split) <- c("Course", "Number")
 

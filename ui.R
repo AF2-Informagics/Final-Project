@@ -3,6 +3,8 @@ library(shiny)
 library(shinyAce)
 
 setwd("~/Documents/info201_sp17/Final-Project")
+source(file = "scripts/dataframe.R")
+
 sidebar <- dashboardSidebar(
   sidebarMenu(
     menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
@@ -23,10 +25,10 @@ body <- dashboardBody(
             h2("Registration & Filter"),
             fluidRow(
               column(4,
-                         selectInput("building",
-                                     "Buildings:",
-                                     c("All",
-                                       unique(as.character(df$Building))))
+                     selectInput("building",
+                                 "Buildings:",
+                                 c("All",
+                                   unique(as.character(df$Building))))
               ),
               column(4,
                      selectInput("course",
@@ -40,7 +42,7 @@ body <- dashboardBody(
                                  c("All",
                                    unique(as.character(df$Lecturer))))
               )
-              ),
+            ),
             # Create a new row for the table.
             fluidRow(
               DT::dataTableOutput("table")
@@ -65,16 +67,16 @@ body <- dashboardBody(
                                              "Collapsed" = "collapse",
                                              "Cartesian" = "cartesian")),
                      HTML("<div id=\"d3\" class=\"d3plot\"><svg /></div>")
+              ),
+              column(width = 6,
+                     aceEditor("code", 
+                               value="# Enter code to generate a ggplot here \n# Then click 'Send Code' when ready
+                               p <- ggplot(mtcars, aes(mpg, wt)) + \n geom_point(colour='grey50', size = 4) + \n geom_point(aes(colour = cyl)) + facet_wrap(~am, nrow = 2)
+                               # Visualize the 'built' version -- this is optional\nggplot_build(p)",
+                               mode = "r", theme = "chrome", height = "100px", fontSize = 10),
+                     actionButton("send", "Send code"),
+                     plotOutput(outputId = "ggplot")
               )
-              # column(width = 6,
-              #        aceEditor("code", 
-              #                  value="# Enter code to generate a ggplot here \n# Then click 'Send Code' when ready
-              #                  p <- ggplot(mtcars, aes(mpg, wt)) + \n geom_point(colour='grey50', size = 4) + \n geom_point(aes(colour = cyl)) + facet_wrap(~am, nrow = 2)
-              #                  # Visualize the 'built' version -- this is optional\nggplot_build(p)",
-              #                  mode = "r", theme = "chrome", height = "100px", fontSize = 10),
-              #        actionButton("send", "Send code"),
-              #        plotOutput(outputId = "ggplot")
-              # )
             )
     ),
     tabItem(tabName = "fun",

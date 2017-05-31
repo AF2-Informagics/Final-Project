@@ -5,9 +5,9 @@ library(ggplot2)
 library(shinyAce)
 library(jsonlite)
 
-json <- fromJSON(txt = "data/prereq.json")
-# setwd("~/Desktop/INFO 201/Final-Project")
+setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
+json <- fromJSON(txt = "data/prereq.json")
 
 # recursive approach! http://stackoverflow.com/questions/12818864/how-to-write-to-json-with-children-from-r
 makeList <- function(x) {

@@ -56,19 +56,19 @@ shinyServer(function(input, output) {
     data
   }))
   
-  output$ggplot <- renderPlot({
-    input$send
-    isolate({
-      print(eval(parse(text = input$code)))
-    })
-  })
+  # output$ggplot <- renderPlot({
+  #   input$send
+  #   isolate({
+  #     print(eval(parse(text = input$code)))
+  #   })
+  # })
   
   output$d3 <- reactive({
-    # input$send
-    # isolate({
-    #   p <- eval(parse(text = input$code))
-    # })
-    return(list(root = gg2tree(json), layout = input$d3layout))
+    input$send
+    isolate({
+      p <- eval(parse(text = input$code))
+    })
+    return(list(root = gg2tree(p), layout = input$d3layout))
   })
   
   output$console <- renderPrint({

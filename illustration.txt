@@ -1,5 +1,6 @@
-1. Get the information from rate-my-professor, uw schedule, uw buildings with scrapy
-2. Students can check for empty classrooms in every building at specific time
-3. The audience can view the Data Visualization tab, which allows them to explore course prerequisite sequences across the University of Washington course catalog.
-4. The audience can also view the Fun Fact! tab to view some interesting facts about UW classes, like the longest class lasts near 10 hours.
-5. The last, the audience can decide which courses they want to take according the name of professor, the location of classroom and the ratings of professor etc.
+Our site will allow information from rate-my-professor, the UW schedules as well as what buildings are nearby to be accessed. 
+Our site would help students be able to find empty in any building they needed during a specific time of their choosing. 
+By viewing our data visualization tab, it is also possible for students to explore course prerequisites they would need to fulfill. 
+The user can also access the Fun Fact! tab which shows interesting facts about UW classes to pop up. 
+Finally, the users can decide what courses they plan on taking according to the professors, location, and ratings received. 
+All of these will be easily found and available within the site.

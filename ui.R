@@ -1,6 +1,8 @@
 library(shinydashboard)
 library(shiny)
 library(shinyAce)
+library(ggplot2)
+library(leaflet)
 
 setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
@@ -18,66 +20,50 @@ sidebar <- dashboardSidebar(
 body <- dashboardBody(
   tabItems(
     tabItem(tabName = "dashboard",
-            h2("Dashboard tab content")
+            h2("Class Details for UW"),
+            h5("Things you may not know")
     ),
     
     tabItem(tabName = "registration",
             h2("Registration & Filter"),
-            fluidRow(
-              column(4,
-                     selectInput("building",
-                                 "Buildings:",
-                                 c("All",
-                                   unique(as.character(df$Building))))
+            fluidPage(
+              
+              fluidRow(
+                column(4,
+                       selectInput("building",
+                                   "Buildings:",
+                                   c("All",
+                                     unique(as.character(df$Building))))
+                ),
+                column(4,
+                       selectInput("course",
+                                   "Courses:",
+                                   c("All",
+                                     unique(as.character(df$Course))))
+                ),
+                column(4,
+                       selectInput("lecturer",
+                                   "Lecturers:",
+                                   c("All",
+                                     unique(as.character(df$Lecturer))))
+                )
               ),
-              column(4,
-                     selectInput("course",
-                                 "Courses:",
-                                 c("All",
-                                   unique(as.character(df$Course))))
-              ),
-              column(4,
-                     selectInput("lecturer",
-                                 "Lecturers:",
-                                 c("All",
-                                   unique(as.character(df$Lecturer))))
+              # Create a new row for the table.
+              fluidRow(
+                DT::dataTableOutput("table")
               )
-            ),
-            # Create a new row for the table.
-            fluidRow(
-              DT::dataTableOutput("table")
             )
+           
     ),
     tabItem(tabName = "check",
-            h2("Check for empty classroom!")
+            h2("Check for empty classroom!"),
+            bootstrapPage(
+              leafletOutput("map", "100%", 400)
+            )
+            
     ),
     tabItem(tabName = "visual",
-            h2("Class Visualization"),
-            tags$head(
-              tags$script(type="text/javascript", src = "d3.v3.js"),
-              tags$script(type="text/javascript", src ="d3.tip.js"),
-              tags$script(type="text/javascript", src ="ggtree.js"),
-              tags$link(rel = 'stylesheet', type = 'text/css', href = 'ggtree.css')
-            ),
-            
-            fluidRow(
-              column(width = 6,
-                     selectInput("d3layout", "Choose a layout:", 
-                                 choices = c("Radial" = "radial",
-                                             "Collapsed" = "collapse",
-                                             "Cartesian" = "cartesian")),
-                     HTML("<div id=\"d3\" class=\"d3plot\"><svg /></div>")
-              ),
-              column(width = 6,
-                     aceEditor("code", 
-                               value="# Enter code to generate a ggplot here \n# Then click 'Send Code' when ready
-                               p <- ggplot(mtcars, aes(mpg, wt)) + \n geom_point(colour='grey50', size = 4) + \n geom_point(aes(colour = cyl)) + facet_wrap(~am, nrow = 2)
-                               # Visualize the 'built' version -- this is optional\nggplot_build(p)",
-                               mode = "r", theme = "chrome", height = "100px", fontSize = 10),
-                     actionButton("send", "Send code"),
-                     plotOutput(outputId = "ggplot")
-              )
-            )
+            h2("Class Visualization")
     ),
     tabItem(tabName = "fun",
             h2("Fun Facts about the UW classes!")
@@ -86,8 +72,8 @@ body <- dashboardBody(
 )
 
 # Put them together into a dashboardPage
-dashboardPage(
+shinyUI(dashboardPage(
   dashboardHeader(title = "Navigation Bar"),
   sidebar,
   body
-)
+))

@@ -59,7 +59,7 @@ for tid in tids:
             overall = rating['rOverall']
             difficulty = rating['rEasy']
 
-            print(course, overall, difficulty)
+            # print(course, overall, difficulty)
 
         if remaining == 0:
             break

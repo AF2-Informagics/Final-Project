@@ -4,6 +4,7 @@ library(stringr)
 library(jsonlite)
 
 df <- read.csv(file = "data/schedule_new.csv", stringsAsFactors = FALSE)
+building <- read.csv(file = "data/building.csv", stringsAsFactors = FALSE)
 
 df$StartTime_new <- ifelse((df$StartTime < 700 | grepl("P",df$EndTime)), df$StartTime + 1200, df$StartTime)
 df$EndTime_new <- ifelse((df$StartTime < 700 | (df$StartTime <= 1200 & as.integer(gsub("([0-9]+).*$", "\\1", df$EndTime)) < df$StartTime) | grepl("P", df$EndTime) | df$StartTime > 1200), as.integer(gsub("([0-9]+).*$", "\\1", df$EndTime)) + 1200, suppressWarnings(as.integer(df$EndTime)))
@@ -48,4 +49,12 @@ departments <- unique(courses.split$Course[courses.split$Course != ""])
 rooms.list <- sapply(buildings, GetRoom)
 courses.list <- sapply(departments, GetCourse)
 
-# write.csv(df, file = "data/schedule_new.csv", row.names = FALSE)
+# write.csv(df, file = "data/df_new.csv", row.names = FALSE)
+
+df_for_table <- df %>% 
+  select(Course, SLN, Section, Day, StartTime_new, EndTime_new, Building, Room, Lecturer, CR.NC)
+df_for_table$StartTime_new <- substr(df_for_table$StartTime_new, 12, 16)
+df_for_table$EndTime_new <- substr(df_for_table$EndTime_new,12, 16)
+colnames(df_for_table)[5] <- "Start Time"
+colnames(df_for_table)[6] <- "End Time"
+colnames(df_for_table)[10] <- "CR/NC"

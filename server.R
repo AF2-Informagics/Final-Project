@@ -1,16 +1,4 @@
-library(shiny)
-library(dplyr)
-library(DT)
-library(ggplot2)
-library(shinyAce)
-library(jsonlite)
-library(leaflet)
-library(plyr)
-library(reshape2)
-library(d3Tree)
-library(stringr)
-
-setwd("~/Documents/info201_sp17/Final-Project")
+# setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
 # a <- read.csv(file = "~/Documents/test.csv", na.strings=c(""), stringsAsFactors = FALSE)
 # m <- 

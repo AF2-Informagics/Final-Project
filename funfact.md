@@ -1,6 +1,6 @@
 ### Most expensive additional class
 
-The most expensive additional class is LAW B 539, LAW B 550 which have additional fees of $5,100 .
+The most expensive additional class is LAW B 539 which have additional fees of $5,100 .
 
 ### Longest class EVER!!
 
@@ -15,3 +15,5 @@ The biggest capacity a class can hold is 720. And the classes are CSE 142, NUTR 
 An interesting fact is that the classes that have the additional fees higher than $1000 and class capacity smaller than 5 are all in LAW SCHOOL.
 
 ### Here is a distribution of classes of different credits
+
+![alt text](pie char.jpg)

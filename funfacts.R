@@ -3,7 +3,7 @@ library(stringr)
 library(plotly)
 library(ggplot2)
 
-source("scripts/dataframe.r")
+source("scripts/dataframe.R")
 
 improved.df <- df
 improved.df$new.additional <- substring(improved.df$Additional, 2)

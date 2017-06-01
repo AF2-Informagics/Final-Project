@@ -42,7 +42,7 @@ for professor in docs:
     pk_id = professor['pk_id']
 
     tids.append(pk_id)
-    print(first, last, score)
+    print(last, ",", first, score)
 
 # Get reviews for each of the professors
 for tid in tids:

@@ -129,6 +129,6 @@ for (i in filenames) {
       stringsAsFactors = FALSE,
       header = FALSE
     ) %>% `colnames<-`(c("Course", "Prereq")) %>% mutate(Level = stri_extract_first_regex(Course, "[0-9]")) %>% ArrangeCol(c("Level" =
-                                                                                                                               1))) %>% mutate(Prereq = replace(Prereq, is.na(Prereq), "None")) %>% mutate(NEWCOL =
-                                                                             NA) %>% distinct
+                                                                                                                               1))
+  )
 }

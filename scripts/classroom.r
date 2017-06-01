@@ -13,6 +13,8 @@ false.df <-
 
 temp.df <- inner_join(true.df, false.df)
 available.df <- setdiff(true.df, temp.df)
+available.df <- aggregate(Room ~ Building, data = available.df, paste, collapse = ", ")
+
 
 colnames(available.df.num) <- c("abbr", "num")
 

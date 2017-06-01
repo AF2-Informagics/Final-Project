@@ -4,7 +4,9 @@ output: html_document
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-
+library(ggplot2)
+library(dplyr)
+library(plotly)
 source("scripts/dataframe.R")
 #Select the most expensive additional class
 most.expensive.additional <- improved.df %>% filter(new.additional == max(new.additional))
@@ -22,7 +24,7 @@ expensive.smallest.capacity <- improved.df %>% filter(is.na(Capacity) == FALSE &
 ```
 
 #### Most expensive additional class
-The most expensive additional class is *`r most.expensive.additional$Course`* which have additional fees of *`r most.expensive.additional$Additional[1]`*.
+The most expensive additional class is *`r most.expensive.additional$Course[1]`* which have additional fees of *`r most.expensive.additional$Additional[1]`*.
 
 #### Longest class EVER!!
 The longest class time is *`r longest.time.class$time_diff[1]`min*, which is *`r longest.time.class$Course[1]`*.
@@ -34,3 +36,9 @@ The biggest capacity a class can hold is *`r most.capacity$Capacity[1]`*. And th
 An interesting fact is that the classes that have the additional fees higher than *$1000* and class capacity smaller than *5* are all in **LAW SCHOOL**.
 
 #### Here is a distribution of classes of different credits
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+pie <- ggplot(new.improved.credit, aes(x = factor(1), fill = factor(new.improved.credit$credits))) +  geom_bar(width = 1) 
+p <- pie + coord_polar(theta = "y")
+p
+```

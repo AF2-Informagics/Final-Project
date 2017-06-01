@@ -2,12 +2,16 @@
 source(file = "scripts/dataframe.R")
 source(file = "scripts/classroom.R")
 source(file = "plot.R")
-mutate(available.df.num.new, group = cut(num, breaks = c(0, 2, 5, Inf), labels = c("red", "orange", "green"))) -> available.df.num.new
-quakeIcons <- iconList(red = makeIcon("markers-soft2.png", iconHeight = 32, iconWidth = 24),
-                  orange = makeIcon("markers-soft4.png", iconHeight = 32, iconWidth = 24),
+
+# mutate the dataframe to include breaks according to the desired number of available classrooms and add 
+# corresponding icons to indicate the number
+mutate(available.df.num.new, group = cut(num, breaks = c(0, 2, 5, Inf), labels = c("orange", "blue", "green"))) -> available.df.num.new
+quakeIcons <- iconList(orange = makeIcon("markers-soft2.png", iconHeight = 32, iconWidth = 24),
+                  blue = makeIcon("markers-soft4.png", iconHeight = 32, iconWidth = 24),
                   green = makeIcon("markers-soft3.png", iconHeight = 32, iconWidth = 24))
 
 shinyServer(function(input, output) {
+  # Handle and set the data to react in the visualization tree
   m <- reactive({
     a <- get(input$in4)
     x <-
@@ -15,16 +19,11 @@ shinyServer(function(input, output) {
       mutate(NEWCOL = NA) %>% distinct
   })
   
+  # Render a plotly object that return a pie graph
   output$pie <- renderPlotly({
     return(BuildPie(data))
   })
   
-  getPage <- function() {
-    return(includeHTML("index.html"))
-  }
-  output$inc <- renderUI({
-    getPage()
-  })
   
   output$Hierarchy <- renderUI({
     Hierarchy = names(m())
@@ -125,6 +124,7 @@ shinyServer(function(input, output) {
   output$maptable <- DT::renderDataTable(DT::datatable({
     data <- available.df.new
   }, rownames = FALSE, options = list(pageLength = 100)))
+  
   # Filter data based on selections
   output$vtable <- DT::renderDataTable(DT::datatable({
     data <- df_for_table

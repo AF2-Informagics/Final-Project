@@ -9,11 +9,12 @@ library(stringr)
 library(plotly)
 library(ggplot2)
 
-source("scripts/dataframe.r")
+source("scripts/dataframe.R")
 
 improved.df <- df
 improved.df$new.additional <- substring(improved.df$Additional, 2)
 improved.df$new.additional <- ifelse(improved.df$new.additional != "", as.numeric(gsub(",", "", improved.df$new.additional)), 0)
+
 
 #Select the most expensive additional class
 most.expensive.additional <- improved.df %>% filter(new.additional == max(new.additional))
@@ -43,10 +44,23 @@ An interesting fact is that the classes that have the additional fees higher tha
 ## Here is a distribution of classes of different credits
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 improved.df$credits <- as.numeric(improved.df$Sub.Credit)
-new.improved.credit <- improved.df %>% filter(is.na(credits) == FALSE)
+new.improved.credit <-improved.df %>% select(Course, credits) %>% filter(!is.na(credits), !credits == 0.0) %>% distinct()
 
+data <- new.improved.credit %>% group_by(credits) %>% summarise(num = n())
+colors <- c('rgb(211,94,96)', 'rgb(128,133,133)', 'rgb(144,103,167)', 'rgb(171,104,87)', 'rgb(114,147,203)')
 
-pie <- ggplot(new.improved.credit, aes(x = factor(1), fill = factor(new.improved.credit$credits))) +  geom_bar(width = 1) 
-p <- pie + coord_polar(theta = "y")
+p <- plot_ly(data, labels = ~credits, values = ~num, type = 'pie',
+             textposition = 'inside',
+             textinfo = 'label+percent',
+             insidetextfont = list(color = '#FFFFFF'),
+             hoverinfo = 'text',
+             text = ~paste(credits, ' credits classes'),
+             marker = list(colors = colors,
+                           line = list(color = '#FFFFFF', width = 1)),
+             #The 'pull' attribute can also be used to create space between the sectors
+             showlegend = FALSE) %>%
+  layout(title = 'UW Classes credits distribution',
+         xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+         yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
 p
 ```

@@ -1,9 +1,9 @@
 source(file = "scripts/dataframe.R")
-temp.time <- Sys.time() + 3600 * 11
+temp.time <- Sys.time() + 3600 * 8
 
 new.df <-
   df %>% mutate(availbility = StartTime_new > temp.time |
-                  temp.time > EndTime_new) %>% select(Building, Room, availbility) %>% filter(Building != "", Room != "") %>% distinct()
+                  temp.time < EndTime_new) %>% select(Building, Room, availbility) %>% filter(Building != "", Room != "") %>% distinct()
 
 true.df <-
   new.df %>% filter(availbility == TRUE) %>% select(Building, Room)
@@ -13,7 +13,7 @@ false.df <-
 
 temp.df <- inner_join(true.df, false.df)
 available.df <- setdiff(true.df, temp.df)
-available.df <- aggregate(Room ~ Building, data = available.df, paste, collapse = ", ")
+available.df.new <- aggregate(Room ~ Building, data = available.df, paste, collapse = ", ")
 
 
 colnames(available.df.num) <- c("abbr", "num")

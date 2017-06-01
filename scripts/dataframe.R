@@ -1,4 +1,4 @@
-setwd("~/Documents/info201_sp17/Final-Project/")
+# setwd("~/Documents/info201_sp17/Final-Project/")
 library(dplyr)
 library(stringr)
 library(stringi)
@@ -31,7 +31,7 @@ df$EndTime_new <-
   as.POSIXct(sprintf("%04.0f", df$EndTime_new), format = '%H%M')
 df <- df %>% mutate(time_diff = df$EndTime_new - df$StartTime_new)
 
-building_info <- fromJSON(file = "data/parse.json")
+building_info <- fromJSON(txt = "data/parse.json")
 # building_info <- as.data.frame(building_info, stringsAsFactors = FALSE)
 
 rooms <-
@@ -52,11 +52,11 @@ df.new <-
 colnames(courses.split) <- c("Course", "Number")
 
 RemoveEmpty <- function(data) {
-  data[!apply(data == "", 1, all), ]
+  data[!apply(data == "", 1, all),]
 }
 
 RemoveEmptyNA <- function(data) {
-  data <- data[!apply(is.na(data) | data == "", 1, all), ]
+  data <- data[!apply(is.na(data) | data == "", 1, all),]
 }
 
 GetRoom <- function(building) {
@@ -77,7 +77,7 @@ ArrangeCol <- function(data, vars) {
   var.nr <- length(data.nms)
   var.nms <- names(vars)
   var.pos <- vars
-  stopifnot(!any(duplicated(var.nms)),!any(duplicated(var.pos)))
+  stopifnot(!any(duplicated(var.nms)), !any(duplicated(var.pos)))
   stopifnot(is.character(var.nms),
             is.numeric(var.pos))
   stopifnot(all(var.nms %in% data.nms))

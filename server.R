@@ -1,6 +1,10 @@
 # setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
 source(file = "plot.R")
+mutate(available.df.num.new, group = cut(num, breaks = c(0, 2, 5, Inf), labels = c("red", "orange", "green"))) -> available.df.num.new
+quakeIcons <- iconList(red = makeIcon("markers-soft2.png", iconHeight = 32, iconWidth = 24),
+                  orange = makeIcon("markers-soft4.png", iconHeight = 32, iconWidth = 24),
+                  green = makeIcon("markers-soft3.png", iconHeight = 32, iconWidth = 24))
 
 shinyServer(function(input, output) {
   m <- reactive({
@@ -96,12 +100,13 @@ shinyServer(function(input, output) {
   })
   
   output$map <- renderLeaflet({
-    leaflet() %>%
+    leaflet(data = available.df.num.new) %>%
       addProviderTiles(providers$Esri.NatGeoWorldMap) %>%
       setView(lat = 47.656721,
               lng = -122.309054,
               zoom = 16) %>%
       addMarkers(
+        icon = ~quakeIcons[group],
         lng = building$long,
         lat = building$lat,
         popup = paste0(
@@ -131,3 +136,4 @@ shinyServer(function(input, output) {
     data
   }))
 })
+

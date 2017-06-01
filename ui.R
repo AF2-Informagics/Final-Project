@@ -18,16 +18,24 @@ sidebar <- dashboardSidebar(
 )
 
 body <- dashboardBody(
+  tags$head(tags$style(HTML('
+    body, h2, h5 {
+      font-family: "Georgia", Times, "Times New Roman", serif;
+    }
+    .main-header .logo {
+      font-family: "Georgia", Times, "Times New Roman", serif;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  '))),
   tabItems(
     tabItem(tabName = "dashboard",
             h2("Class Details for UW"),
             h5("Things you may not know")
     ),
-    
     tabItem(tabName = "registration",
             h2("Registration & Filter"),
             fluidPage(
-              
               fluidRow(
                 column(4,
                        selectInput("building",
@@ -50,20 +58,35 @@ body <- dashboardBody(
               ),
               # Create a new row for the table.
               fluidRow(
-                DT::dataTableOutput("table")
+                DT::dataTableOutput("vtable")
               )
             )
-           
+
     ),
     tabItem(tabName = "check",
             h2("Check for empty classroom!"),
             bootstrapPage(
               leafletOutput("map", "100%", 400)
             )
-            
+
     ),
     tabItem(tabName = "visual",
-            h2("Class Visualization")
+            h2("Class Visualization"),
+            fluidRow(
+              column(7,
+                     hr(),
+                     selectInput('in4', 'Options', filenames, selectize=TRUE)
+              ),
+              column(7,
+                     uiOutput("Hierarchy"),
+                     # verbatimTextOutput("results"),
+                     # tableOutput("clickView"),
+                     d3treeOutput(outputId="d3",width = '1200px',height = '800px')
+              ),
+              column(5,
+                     tableOutput('table')
+              )
+            )
     ),
     tabItem(tabName = "fun",
             h2("Fun Facts about the UW classes!")

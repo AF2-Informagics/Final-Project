@@ -52,11 +52,11 @@ df.new <-
 colnames(courses.split) <- c("Course", "Number")
 
 RemoveEmpty <- function(data) {
-  data[!apply(data == "", 1, all),]
+  data[!apply(data == "", 1, all), ]
 }
 
 RemoveEmptyNA <- function(data) {
-  data <- data[!apply(is.na(data) | data == "", 1, all),]
+  data <- data[!apply(is.na(data) | data == "", 1, all), ]
 }
 
 GetRoom <- function(building) {
@@ -77,7 +77,7 @@ ArrangeCol <- function(data, vars) {
   var.nr <- length(data.nms)
   var.nms <- names(vars)
   var.pos <- vars
-  stopifnot(!any(duplicated(var.nms)), !any(duplicated(var.pos)))
+  stopifnot(!any(duplicated(var.nms)),!any(duplicated(var.pos)))
   stopifnot(is.character(var.nms),
             is.numeric(var.pos))
   stopifnot(all(var.nms %in% data.nms))
@@ -135,9 +135,12 @@ for (i in filenames) {
 
 improved.df <- df
 improved.df$new.additional <- substring(improved.df$Additional, 2)
-improved.df$new.additional <- ifelse(improved.df$new.additional != "", as.numeric(gsub(",", "", improved.df$new.additional)), 0)
+improved.df$new.additional <-
+  ifelse(improved.df$new.additional != "", as.numeric(gsub(",", "", improved.df$new.additional)), 0)
 
 improved.df$credits <- as.numeric(improved.df$Sub.Credit)
-new.improved.credit <-improved.df %>% select(Course, credits) %>% filter(!is.na(credits), !credits == 0.0) %>% distinct()
+new.improved.credit <-
+  improved.df %>% select(Course, credits) %>% filter(!is.na(credits),!credits == 0.0) %>% distinct()
 
-data <- new.improved.credit %>% group_by(credits) %>% summarise(num = n())
+data <-
+  new.improved.credit %>% group_by(credits) %>% summarise(num = n())

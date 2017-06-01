@@ -5,95 +5,127 @@ source(file = "plot.R")
 shinyServer(function(input, output) {
   m <- reactive({
     a <- get(input$in4)
-    x <- a%>%data.frame%>%mutate(Prereq = replace(Prereq,is.na(Prereq),"None"))%>%mutate(NEWCOL=NA)%>%distinct
+    x <-
+      a %>% data.frame %>% mutate(Prereq = replace(Prereq, is.na(Prereq), "None")) %>%
+      mutate(NEWCOL = NA) %>% distinct
   })
   
   output$pie <- renderPlotly({
     return(BuildPie(data))
   })
   
-  getPage<-function() {
+  getPage <- function() {
     return(includeHTML("index.html"))
   }
-  output$inc<-renderUI({getPage()})
+  output$inc <- renderUI({
+    getPage()
+  })
   
   output$Hierarchy <- renderUI({
-    Hierarchy=names(m())
-    Hierarchy=head(Hierarchy,-1)
-    selectizeInput("Hierarchy","Tree Hierarchy",
-                   choices = Hierarchy,multiple=T,selected = Hierarchy,
-                   options=list(plugins=list('drag_drop','remove_button')))
+    Hierarchy = names(m())
+    Hierarchy = head(Hierarchy, -1)
+    selectizeInput(
+      "Hierarchy",
+      "Tree Hierarchy",
+      choices = Hierarchy,
+      multiple = T,
+      selected = Hierarchy,
+      options = list(plugins = list('drag_drop', 'remove_button'))
+    )
   })
-
+  
   network <- reactiveValues()
-
-  observeEvent(input$d3_update,{
+  
+  observeEvent(input$d3_update, {
     network$nodes <- unlist(input$d3_update$.nodesData)
-    activeNode<-input$d3_update$.activeNode
-    if(!is.null(activeNode)) network$click <- jsonlite::fromJSON(activeNode)
+    activeNode <- input$d3_update$.activeNode
+    if (!is.null(activeNode))
+      network$click <- jsonlite::fromJSON(activeNode)
   })
-
-  observeEvent(network$click,{
-    output$clickView<-renderTable({
+  
+  observeEvent(network$click, {
+    output$clickView <- renderTable({
       as.data.frame(network$click)
-    },caption='Last Clicked Node',caption.placement='top')
+    }, caption = 'Last Clicked Node', caption.placement = 'top')
   })
-
-
-  TreeStruct=eventReactive(network$nodes,{
-    df=m()
-    if(is.null(network$nodes)){
-      df=m()
-    }else{
-
-      x.filter=tree.filter(network$nodes,m())
-      df=ddply(x.filter,.(ID),function(a.x){m()%>%filter_(.dots = list(a.x$FILTER))%>%distinct})
+  
+  
+  TreeStruct = eventReactive(network$nodes, {
+    df = m()
+    if (is.null(network$nodes)) {
+      df = m()
+    } else{
+      x.filter = tree.filter(network$nodes, m())
+      df = ddply(x.filter, .(ID), function(a.x) {
+        m() %>% filter_(.dots = list(a.x$FILTER)) %>% distinct
+      })
     }
     df
   })
-
-  observeEvent(input$Hierarchy,{
+  
+  observeEvent(input$Hierarchy, {
     output$d3 <- renderD3tree({
-      if(is.null(input$Hierarchy)){
-        p=m()
-      }else{
-        p=m()%>%select(one_of(c(input$Hierarchy,"NEWCOL")))%>%unique
+      if (is.null(input$Hierarchy)) {
+        p = m()
+      } else{
+        p = m() %>% select(one_of(c(input$Hierarchy, "NEWCOL"))) %>% unique
       }
-
-      d3tree(data = list(root = df2tree(struct = p,rootname = input$in4), layout = 'collapse'),activeReturn = c('name','value','depth','id'),height = 18)
+      
+      d3tree(
+        data = list(
+          root = df2tree(struct = p, rootname = input$in4),
+          layout = 'collapse'
+        ),
+        activeReturn = c('name', 'value', 'depth', 'id'),
+        height = 18
+      )
     })
   })
-
-  observeEvent(network$nodes,{
+  
+  observeEvent(network$nodes, {
     output$results <- renderPrint({
-      str.out=''
-      if(!is.null(network$nodes)) str.out=tree.filter(network$nodes,m())
+      str.out = ''
+      if (!is.null(network$nodes))
+        str.out = tree.filter(network$nodes, m())
       return(str.out)
     })
   })
   
   output$table <- renderTable(expr = {
-    TreeStruct()%>%select(-NEWCOL)
+    TreeStruct() %>% select(-NEWCOL)
   })
   
   output$map <- renderLeaflet({
     leaflet() %>%
       addProviderTiles(providers$Esri.NatGeoWorldMap) %>%
-      setView(lat = 47.656721, lng = -122.309054, zoom = 16) %>%
-      addMarkers(lng = building$long, lat = building$lat, popup = building$full_name)
+      setView(lat = 47.656721,
+              lng = -122.309054,
+              zoom = 16) %>%
+      addMarkers(
+        lng = building$long,
+        lat = building$lat,
+        popup = paste0(
+          "<strong>",
+          building$full_name,
+          " (",
+          building$abbr,
+          ") ",
+          "</strong>"
+        )
+      )
   })
-
+  
   # Filter data based on selections
   output$vtable <- DT::renderDataTable(DT::datatable({
     data <- df_for_table
     if (input$building != "All") {
-      data <- data[data$Building == input$building,]
+      data <- data[data$Building == input$building, ]
     }
     if (input$course != "All") {
-      data <- data[data$Course == input$course,]
+      data <- data[data$Course == input$course, ]
     }
     if (input$lecturer != "All") {
-      data <- data[data$Lecturer == input$lecturer,]
+      data <- data[data$Lecturer == input$lecturer, ]
     }
     data
   }))

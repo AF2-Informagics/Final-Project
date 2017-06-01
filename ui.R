@@ -1,6 +1,6 @@
 # setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
-source(file = "scripts/classroom.R")
+source(file = "scripts/classroom.r")
 source(file = "plot.R")
 
 # Make the sidebar menu and corresponding icons for the shiny app

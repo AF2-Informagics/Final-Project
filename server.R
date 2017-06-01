@@ -99,6 +99,8 @@ shinyServer(function(input, output) {
     TreeStruct() %>% select(-NEWCOL)
   })
   
+  # Render a map with setted position and zoom levels, add markers with pop-up information and
+  # different colors to indicate the number of available rooms inside the building
   output$map <- renderLeaflet({
     leaflet(data = available.df.num.new) %>%
       addProviderTiles(providers$Esri.NatGeoWorldMap) %>%
@@ -117,15 +119,15 @@ shinyServer(function(input, output) {
           ") ",
           "</strong>", "<br />", "number of classroom available: ", available.df.num.new$num,
           "<br />", available.df.new$Room
-        )
-      )
+        ))
   })
   
+  # Render a table including all the buildings and rooms within them that are currently available
   output$maptable <- DT::renderDataTable(DT::datatable({
     data <- available.df.new
   }, rownames = FALSE, options = list(pageLength = 100)))
   
-  # Filter data based on selections
+  # Render a table including all the classes and filter data based on selections
   output$vtable <- DT::renderDataTable(DT::datatable({
     data <- df_for_table
     if (input$building != "All") {

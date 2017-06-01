@@ -9,4 +9,5 @@ Our data visualization type takes the student into a completely new view however
 There is also a great amount of information based on scheduling as a whole. You can choose from courses, section, credits, days, and even teachers. I can even base on primarily on what time the class is being taught and who is teaching it. If I plan on looking at Honors 220, I can see Section A, who’s teaching it, and that the timing of the class is 3:30 to 4:30. The benefit of this is that you can pick your schedule based on class, timing, teachers, places, whether it’s open or not, or even the rating a teacher has received. Like looking up Astr 192 will let me see the section, place, time, teachers, and whether or not it’s open without going through various parts of MyPlan.
 
 Our user can also access any fun facts that might be associated with UW Classes. By looking at the Fun Fact! tab, various and interesting fun facts can appear.
+
 Our design overall allows the user to decide what courses they plan on taking according to the professors, location, and rating received. All of these can be easily found within the site in order to make it easier for students at UW.

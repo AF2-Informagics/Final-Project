@@ -39,11 +39,17 @@ body <- dashboardBody(
       font-weight: bold;
       font-size: 20px;
     }
+
+    p {
+      font-family: "Georgia", Times, "Times New Roman", serif;
+      font-size: 18px;
+    }
   '))),
   tabItems(
     tabItem(tabName = "dashboard",
             h2("Class Details for UW"),
-            h5("Things you may not know")
+            h5("Things you may not know"),
+            includeMarkdown("illustration.md")
     ),
     tabItem(tabName = "registration",
             h2("Registration & Filter"),
@@ -100,8 +106,14 @@ body <- dashboardBody(
               )
             )
     ),
-    tabItem(tabName = "fun",
-            h2("Fun Facts about the UW classes!")
+    tabItem(tabName = "fun"
+            
+            # fluidPage(
+            #   h2("Fun Facts about the UW classes!"),
+            #   mainPanel(
+            #     includeHTML('index.html')
+            #   )
+            # )
     )
   )
 )

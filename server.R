@@ -1,12 +1,16 @@
 # setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
-# a <- read.csv(file = "~/Documents/test.csv", na.strings=c(""), stringsAsFactors = FALSE)
-# m <- 
+
 shinyServer(function(input, output) {
   m <- reactive({
     a <- get(input$in4)
     x <- a%>%data.frame%>%mutate(Prereq = replace(Prereq,is.na(Prereq),"None"))%>%mutate(NEWCOL=NA)%>%distinct
   })
+  
+  getPage<-function() {
+    return(includeHTML("index.html"))
+  }
+  output$inc<-renderUI({getPage()})
   
   output$Hierarchy <- renderUI({
     Hierarchy=names(m())

@@ -53,12 +53,12 @@ body <- dashboardBody(
         }
         
         img {
-          height: 198px;
-          width: 294px;
+        height: 198px;
+        width: 294px;
         }
-
+        
         .dataTables_length {
-          display: none;
+        display: none;
         }
         '
       ))),
@@ -117,23 +117,23 @@ body <- dashboardBody(
     ),
     tabItem(
       # Create a tree with all the UW department, the classes and corresponding prerequisites;
-      # A table is attached to the right showing the same info
+      # A table is attached to the right showing the same info; The default department is INFO (of course)
       tabName = "visual",
       h2("Class Visualization"),
       fluidRow(
         column(7,
-          hr(),
-          selectInput('in4', 'Options', filenames, selectize = TRUE)
+               hr(),
+               selectInput('in4', 'Options', choice = filenames, selectize = TRUE, selected = "INFO")
         ),
         column(7,
-          uiOutput("Hierarchy"),
-          # verbatimTextOutput("results"),
-          # tableOutput("clickView"),
-          d3treeOutput(
-            outputId = "d3",
-            width = '1200px',
-            height = '800px'
-          )
+               uiOutput("Hierarchy"),
+               # verbatimTextOutput("results"),
+               # tableOutput("clickView"),
+               d3treeOutput(
+                 outputId = "d3",
+                 width = '1200px',
+                 height = '800px'
+               )
         ),
         column(5,
                tableOutput('table'))

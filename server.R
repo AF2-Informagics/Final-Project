@@ -1,10 +1,15 @@
 # setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
+source(file = "plot.R")
 
 shinyServer(function(input, output) {
   m <- reactive({
     a <- get(input$in4)
     x <- a%>%data.frame%>%mutate(Prereq = replace(Prereq,is.na(Prereq),"None"))%>%mutate(NEWCOL=NA)%>%distinct
+  })
+  
+  output$pie <- renderPlotly({
+    return(BuildPie(data))
   })
   
   getPage<-function() {

@@ -10,6 +10,7 @@ library(plyr)
 library(reshape2)
 library(d3Tree)
 library(stringr)
+library(markdown)
 
 # setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
@@ -44,11 +45,17 @@ body <- dashboardBody(
       font-family: "Georgia", Times, "Times New Roman", serif;
       font-size: 18px;
     }
+
+    # img {
+    #   height: 198px;
+    #   width: 294px;
+    # }
   '))),
   tabItems(
     tabItem(tabName = "dashboard",
             h2("Class Details for UW"),
-            h5("Things you may not know"),
+            h4("Things you may not know"),
+            img(src="logo.png",align = "right"),
             includeMarkdown("illustration.md")
     ),
     tabItem(tabName = "registration",
@@ -106,14 +113,14 @@ body <- dashboardBody(
               )
             )
     ),
-    tabItem(tabName = "fun"
+    tabItem(tabName = "fun",
             
-            # fluidPage(
-            #   h2("Fun Facts about the UW classes!"),
-            #   mainPanel(
-            #     includeHTML('index.html')
-            #   )
-            # )
+            fluidPage(
+              h2("Fun Facts about the UW classes!"),
+              
+              includeMarkdown("funfact.md"),
+              plotlyOutput('pie')
+            )
     )
   )
 )

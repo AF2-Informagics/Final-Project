@@ -132,3 +132,12 @@ for (i in filenames) {
                                                                                                                                1))
   )
 }
+
+improved.df <- df
+improved.df$new.additional <- substring(improved.df$Additional, 2)
+improved.df$new.additional <- ifelse(improved.df$new.additional != "", as.numeric(gsub(",", "", improved.df$new.additional)), 0)
+
+improved.df$credits <- as.numeric(improved.df$Sub.Credit)
+new.improved.credit <-improved.df %>% select(Course, credits) %>% filter(!is.na(credits), !credits == 0.0) %>% distinct()
+
+data <- new.improved.credit %>% group_by(credits) %>% summarise(num = n())

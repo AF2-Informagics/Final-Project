@@ -31,7 +31,7 @@ df$EndTime_new <-
   as.POSIXct(sprintf("%04.0f", df$EndTime_new), format = '%H%M')
 df <- df %>% mutate(time_diff = df$EndTime_new - df$StartTime_new)
 
-building_info <- fromJSON("data/parse.json")
+building_info <- fromJSON(file = "data/parse.json")
 # building_info <- as.data.frame(building_info, stringsAsFactors = FALSE)
 
 rooms <-
@@ -116,8 +116,7 @@ df_for_table$StartTime_new <-
   substr(df_for_table$StartTime_new, 12, 16)
 df_for_table$EndTime_new <- substr(df_for_table$EndTime_new, 12, 16)
 colnames(df_for_table)[5] <- "Start Time"
-colnames(df_for_table)[6] <-
-  "End                                                                                                                            Time"
+colnames(df_for_table)[6] <- "End Time"
 colnames(df_for_table)[10] <- "CR/NC"
 
 filenames <- gsub("\\.csv$", "", dir(path = "data/prereq/csv/"))

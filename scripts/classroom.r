@@ -14,5 +14,9 @@ false.df <-
 temp.df <- inner_join(true.df, false.df)
 available.df <- setdiff(true.df, temp.df)
 
+colnames(available.df.num) <- c("abbr", "num")
+
 available.df.num <-
   available.df %>% group_by(Building) %>% summarise(num = n())
+
+available.df.num.new <- inner_join(available.df.num, building)

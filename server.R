@@ -24,7 +24,7 @@ shinyServer(function(input, output) {
     return(BuildPie(data))
   })
   
-  
+  # this allows a dropdown menu to have first level children of the alpha parent
   output$Hierarchy <- renderUI({
     Hierarchy = names(m())
     Hierarchy = head(Hierarchy, -1)
@@ -40,6 +40,7 @@ shinyServer(function(input, output) {
   
   network <- reactiveValues()
   
+  # this updates the data of the user event
   observeEvent(input$d3_update, {
     network$nodes <- unlist(input$d3_update$.nodesData)
     activeNode <- input$d3_update$.activeNode
@@ -54,6 +55,7 @@ shinyServer(function(input, output) {
   })
   
   
+  # this construct the d3tree
   TreeStruct = eventReactive(network$nodes, {
     df = m()
     if (is.null(network$nodes)) {
@@ -67,6 +69,7 @@ shinyServer(function(input, output) {
     df
   })
   
+  # this get all the children of the d3tree
   observeEvent(input$Hierarchy, {
     output$d3 <- renderD3tree({
       if (is.null(input$Hierarchy)) {
@@ -86,6 +89,7 @@ shinyServer(function(input, output) {
     })
   })
   
+  # this renders the child text
   observeEvent(network$nodes, {
     output$results <- renderPrint({
       str.out = ''
@@ -95,6 +99,7 @@ shinyServer(function(input, output) {
     })
   })
   
+  # this renders the d3table according to the d3tree
   output$table <- renderTable(expr = {
     TreeStruct() %>% select(-NEWCOL)
   })

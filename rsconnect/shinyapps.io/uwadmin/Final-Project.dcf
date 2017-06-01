@@ -1,0 +1,11 @@
+name: Final-Project
+title: Final-Project
+account: uwadmin
+server: shinyapps.io
+appId: 185291
+bundleId: 848816
+url: https://uwadmin.shinyapps.io/Final-Project/
+when: 1496322525.29148
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData

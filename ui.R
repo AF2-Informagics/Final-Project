@@ -1,17 +1,3 @@
-library(shinydashboard)
-library(shiny)
-library(shinyAce)
-library(ggplot2)
-library(leaflet)
-library(dplyr)
-library(DT)
-library(jsonlite)
-library(plyr)
-library(reshape2)
-library(d3Tree)
-library(stringr)
-library(markdown)
-
 # setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
 

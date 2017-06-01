@@ -1,6 +1,5 @@
 source(file = "scripts/dataframe.R")
-temp.time <- Sys.time() + 3600 * 8
-
+temp.time <- Sys.time()
 new.df <-
   df %>% mutate(availbility = StartTime_new > temp.time |
                   temp.time < EndTime_new) %>% select(Building, Room, availbility) %>% filter(Building != "", Room != "") %>% distinct()

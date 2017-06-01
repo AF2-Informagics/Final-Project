@@ -148,4 +148,4 @@ new.improved.credit <-
   improved.df %>% select(Course, credits) %>% filter(!is.na(credits), !credits == 0.0) %>% distinct()
 
 data <-
-  new.improved.credit %>% group_by(credits) %>% summarise(num = n())
+  new.improved.credit %>% group_by(credits) %>% summarise(num = "n()")

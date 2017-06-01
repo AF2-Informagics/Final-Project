@@ -6,6 +6,7 @@ library(jsonlite)
 
 df <-
   read.csv(file = "data/schedule_new.csv", stringsAsFactors = FALSE)
+rmp <- read.csv(file = "data/RMP.csv", stringsAsFactors = FALSE)
 building <-
   read.csv(file = "data/building.csv", stringsAsFactors = FALSE)
 
@@ -30,6 +31,7 @@ df$StartTime_new <-
 df$EndTime_new <-
   as.POSIXct(sprintf("%04.0f", df$EndTime_new), format = '%H%M')
 df <- df %>% mutate(time_diff = df$EndTime_new - df$StartTime_new)
+df$Lecturer <- stri_trans_totitle(df$Lecturer)
 
 building_info <- fromJSON(txt = "data/parse.json")
 # building_info <- as.data.frame(building_info, stringsAsFactors = FALSE)

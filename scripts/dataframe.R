@@ -32,6 +32,7 @@ df$EndTime_new <-
   as.POSIXct(sprintf("%04.0f", df$EndTime_new), format = '%H%M')
 df <- df %>% mutate(time_diff = df$EndTime_new - df$StartTime_new)
 df$Lecturer <- stri_trans_totitle(df$Lecturer)
+df <- left_join(df, rmp) %>% ArrangeCol(c("rating" = 12))
 
 building_info <- fromJSON(txt = "data/parse.json")
 # building_info <- as.data.frame(building_info, stringsAsFactors = FALSE)
@@ -54,11 +55,11 @@ df.new <-
 colnames(courses.split) <- c("Course", "Number")
 
 RemoveEmpty <- function(data) {
-  data[!apply(data == "", 1, all), ]
+  data[!apply(data == "", 1, all),]
 }
 
 RemoveEmptyNA <- function(data) {
-  data <- data[!apply(is.na(data) | data == "", 1, all), ]
+  data <- data[!apply(is.na(data) | data == "", 1, all),]
 }
 
 GetRoom <- function(building) {
@@ -79,7 +80,7 @@ ArrangeCol <- function(data, vars) {
   var.nr <- length(data.nms)
   var.nms <- names(vars)
   var.pos <- vars
-  stopifnot(!any(duplicated(var.nms)),!any(duplicated(var.pos)))
+  stopifnot(!any(duplicated(var.nms)), !any(duplicated(var.pos)))
   stopifnot(is.character(var.nms),
             is.numeric(var.pos))
   stopifnot(all(var.nms %in% data.nms))
@@ -130,8 +131,8 @@ for (i in filenames) {
       na.strings = c(""),
       stringsAsFactors = FALSE,
       header = FALSE
-    ) %>% `colnames<-`(c("Course", "Prereq")) %>% mutate(Level = stri_extract_first_regex(Course, "[0-9]")) %>% ArrangeCol(c("Level" =
-                                                                                                                               1))
+    ) %>% `colnames<-`(c("Course", "Prereq")) %>%
+      mutate(Level = stri_extract_first_regex(Course, "[0-9]")) %>% ArrangeCol(c("Level" = 1))
   )
 }
 
@@ -142,7 +143,7 @@ improved.df$new.additional <-
 
 improved.df$credits <- as.numeric(improved.df$Sub.Credit)
 new.improved.credit <-
-  improved.df %>% select(Course, credits) %>% filter(!is.na(credits),!credits == 0.0) %>% distinct()
+  improved.df %>% select(Course, credits) %>% filter(!is.na(credits), !credits == 0.0) %>% distinct()
 
 data <-
   new.improved.credit %>% group_by(credits) %>% summarise(num = n())

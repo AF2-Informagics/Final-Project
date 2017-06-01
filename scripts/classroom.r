@@ -1,5 +1,5 @@
 source(file = "scripts/dataframe.R")
-temp.time <- Sys.time()
+temp.time <- as.POSIXlt("2017-06-01 13:56:13 PDT")
 new.df <-
   df %>% mutate(availbility = StartTime_new > temp.time |
                   temp.time < EndTime_new) %>% select(Building, Room, availbility) %>% filter(Building != "", Room != "") %>% distinct()

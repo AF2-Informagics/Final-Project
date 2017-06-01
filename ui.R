@@ -18,8 +18,13 @@ sidebar <- dashboardSidebar(
 )
 
 body <- dashboardBody(
-  tags$head(tags$style(HTML('
-    body, h2, h5 {
+  tags$head(
+    tags$link(rel = "stylesheet", type = "text/css", href = "font.css"),
+    tags$style(HTML('
+    body {
+      font-family: "Iosevka Slab", sans-serif;
+    }
+    h2, h5, span {
       font-family: "Georgia", Times, "Times New Roman", serif;
     }
     .main-header .logo {

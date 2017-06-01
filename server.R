@@ -16,8 +16,7 @@ source(file = "scripts/dataframe.R")
 # m <- 
 shinyServer(function(input, output) {
   m <- reactive({
-    pa <- "data/prereq/csv/aa.csv"
-    a <- read.csv(file = pa, na.strings=c(""), stringsAsFactors = FALSE)
+    a <- get(input$in4)
     x <- a%>%data.frame%>%mutate(Prereq = replace(Prereq,is.na(Prereq),"None"))%>%mutate(NEWCOL=NA)%>%distinct
   })
   
@@ -64,7 +63,7 @@ shinyServer(function(input, output) {
         p=m()%>%select(one_of(c(input$Hierarchy,"NEWCOL")))%>%unique
       }
 
-      d3tree(data = list(root = df2tree(struct = p,rootname = 'A A'), layout = 'collapse'),activeReturn = c('name','value','depth','id'),height = 18)
+      d3tree(data = list(root = df2tree(struct = p,rootname = input$in4), layout = 'collapse'),activeReturn = c('name','value','depth','id'),height = 18)
     })
   })
 

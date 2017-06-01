@@ -110,7 +110,8 @@ shinyServer(function(input, output) {
           " (",
           building$abbr,
           ") ",
-          "</strong>"
+          "</strong>", "<br />", "number of classroom available: ", available.df.num.new$num,
+          "<br />", available.df.new$Room
         )
       )
   })

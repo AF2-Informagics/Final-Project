@@ -4,6 +4,26 @@ library(stringr)
 library(stringi)
 library(jsonlite)
 
+ArrangeCol <- function(data, vars) {
+  stopifnot(is.data.frame(data))
+  data.nms <- names(data)
+  var.nr <- length(data.nms)
+  var.nms <- names(vars)
+  var.pos <- vars
+  stopifnot(!any(duplicated(var.nms)), !any(duplicated(var.pos)))
+  stopifnot(is.character(var.nms),
+            is.numeric(var.pos))
+  stopifnot(all(var.nms %in% data.nms))
+  stopifnot(all(var.pos > 0),
+            all(var.pos <= var.nr))
+  out.vec <- character(var.nr)
+  out.vec[var.pos] <- var.nms
+  out.vec[-var.pos] <- data.nms[!(data.nms %in% var.nms)]
+  stopifnot(length(out.vec) == var.nr)
+  data <- data[, out.vec]
+  return(data)
+}
+
 df <-
   read.csv(file = "data/schedule_new.csv", stringsAsFactors = FALSE)
 rmp <- read.csv(file = "data/RMP.csv", stringsAsFactors = FALSE)
@@ -74,26 +94,6 @@ GetCourse <- function(course) {
   list <- list(data)
 }
 
-ArrangeCol <- function(data, vars) {
-  stopifnot(is.data.frame(data))
-  data.nms <- names(data)
-  var.nr <- length(data.nms)
-  var.nms <- names(vars)
-  var.pos <- vars
-  stopifnot(!any(duplicated(var.nms)), !any(duplicated(var.pos)))
-  stopifnot(is.character(var.nms),
-            is.numeric(var.pos))
-  stopifnot(all(var.nms %in% data.nms))
-  stopifnot(all(var.pos > 0),
-            all(var.pos <= var.nr))
-  out.vec <- character(var.nr)
-  out.vec[var.pos] <- var.nms
-  out.vec[-var.pos] <- data.nms[!(data.nms %in% var.nms)]
-  stopifnot(length(out.vec) == var.nr)
-  data <- data[, out.vec]
-  return(data)
-}
-
 courses <- unique(df$Course[df$Course != ""])
 buildings <- unique(df$Building[df$Building != ""])
 departments <-
@@ -114,13 +114,15 @@ df_for_table <- df %>%
          Building,
          Room,
          Lecturer,
+         rating,
          CR.NC)
 df_for_table$StartTime_new <-
   substr(df_for_table$StartTime_new, 12, 16)
 df_for_table$EndTime_new <- substr(df_for_table$EndTime_new, 12, 16)
 colnames(df_for_table)[5] <- "Start Time"
 colnames(df_for_table)[6] <- "End Time"
-colnames(df_for_table)[10] <- "CR/NC"
+colnames(df_for_table)[11] <- "CR/NC"
+
 
 filenames <- gsub("\\.csv$", "", dir(path = "data/prereq/csv/"))
 for (i in filenames) {

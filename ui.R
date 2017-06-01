@@ -17,7 +17,7 @@ source(file = "scripts/dataframe.R")
 
 sidebar <- dashboardSidebar(sidebarMenu(
   menuItem(
-    "Dashboard",
+    "Introduction",
     tabName = "dashboard",
     icon = icon("dashboard")
   ),
@@ -62,10 +62,14 @@ body <- dashboardBody(
         font-size: 18px;
         }
         
-        # img {
-        #   height: 198px;
-        #   width: 294px;
-        # }
+        img {
+          height: 198px;
+          width: 294px;
+        }
+
+        .dataTables_length {
+          display: none;
+        }
         '
       )
       )
@@ -103,6 +107,13 @@ body <- dashboardBody(
                    "Lecturers:",
                    c("All",
                      unique(as.character(df$Lecturer)))
+                 )),
+          column(4,
+                 selectInput(
+                   "rating",
+                   "Ratings:",
+                   c("All",
+                     unique(as.character(df$rating)))
                  ))
         ),
         # Create a new row for the table.
@@ -113,8 +124,11 @@ body <- dashboardBody(
     tabItem(
       tabName = "check",
       h2("Check for empty classroom!"),
-      bootstrapPage(leafletOutput("map", "100%", 400))
-      
+      bootstrapPage(leafletOutput("map", "100%", 400)),
+      fluidPage(
+        # Create a new row for the table.
+        fluidRow(DT::dataTableOutput("maptable"))
+      )
     ),
     tabItem(
       tabName = "visual",
@@ -153,6 +167,6 @@ body <- dashboardBody(
       )
 
 # Put them together into a dashboardPage
-shinyUI(dashboardPage(dashboardHeader(title = "Navigation Bar"),
+shinyUI(dashboardPage(dashboardHeader(title = "Menu"),
                       sidebar,
                       body))

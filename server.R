@@ -1,5 +1,6 @@
 # setwd("~/Documents/info201_sp17/Final-Project")
 source(file = "scripts/dataframe.R")
+source(file = "scripts/classroom.R")
 source(file = "plot.R")
 mutate(available.df.num.new, group = cut(num, breaks = c(0, 2, 5, Inf), labels = c("red", "orange", "green"))) -> available.df.num.new
 quakeIcons <- iconList(red = makeIcon("markers-soft2.png", iconHeight = 32, iconWidth = 24),
@@ -121,6 +122,9 @@ shinyServer(function(input, output) {
       )
   })
   
+  output$maptable <- DT::renderDataTable(DT::datatable({
+    data <- available.df.new
+  }, rownames = FALSE, options = list(pageLength = 100)))
   # Filter data based on selections
   output$vtable <- DT::renderDataTable(DT::datatable({
     data <- df_for_table
@@ -134,6 +138,6 @@ shinyServer(function(input, output) {
       data <- data[data$Lecturer == input$lecturer, ]
     }
     data
-  }))
+  },rownames = FALSE))
 })
 

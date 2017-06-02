@@ -34,3 +34,6 @@ vignettes/*.pdf
 
 # idea file
 .idea/
+
+# shiny
+rsconnect/

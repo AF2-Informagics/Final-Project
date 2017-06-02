@@ -18,6 +18,9 @@ BuildPie <- function(data) {
           showlegend = FALSE) %>%
     layout(title = 'UW Classes credits distribution',
            xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
-           yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+           yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+           paper_bgcolor='rgba(0,0,0,0)',
+           plot_bgcolor='rgba(0,0,0,0)'
+           )
   return(p)
 }

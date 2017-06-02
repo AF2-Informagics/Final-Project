@@ -7,7 +7,7 @@ temp.time <- Sys.time()
 # this data frame calculated based on this logic but with duplicates
 new.df <-
   df %>% mutate(availbility = StartTime_new > temp.time |
-                  temp.time < EndTime_new) %>% select(Building, Room, availbility) %>% filter(Building != "", Room != "") %>% distinct()
+                  temp.time > EndTime_new) %>% select(Building, Room, availbility) %>% filter(Building != "", Room != "") %>% distinct()
 
 # true df summarise all the rooms in the new.df which availability is true
 true.df <-

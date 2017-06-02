@@ -1,6 +1,6 @@
 ### Most expensive additional class
 
-The most expensive additional class is LAW B 539 which have additional fees of $5,100 .
+The most expensive additional class is LAW B 539 which have additional fees of $5,100.
 
 ### Longest class EVER!!
 

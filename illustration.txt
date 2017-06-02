@@ -8,4 +8,6 @@ Our data visualization type takes the student into a completely new view however
 
 Our user can also access some fun facts that are associated with UW Classes. By looking at the Fun Fact! tab, various and interesting fun facts can appear.
 
+Background: Our group collected data from four major directions using web scrapy: UW schedule, UW buildings, UW classes with prerequisites and rate-my-professor, and then connected them via common info. The UW schedule includes data about course name, section, time, professor etc. and we added the available ratings from rate-my-professor to the lecturers to build the "Registration & Filter" part. The building dataset includes almost all the buildings on campus and their corresponding longitude and latitude, which can be combined to the schedule dataset to find out which classrooms are available in each building currently using the time, building and room columns in schedule dataset. With so much information, it occurred to us that we can calculate some fun facts about the UW classes based on the schedule dataset and that's how Fun Fact! part was born.
+
 Our design overall allows the user to decide what courses they plan on taking according to the professors, location, and rating received. All of these can be easily found within the site in order to make it easier for students at UW.

@@ -15,3 +15,4 @@ The biggest capacity a class can hold is 720. And the classes are CSE 142, NUTR 
 An interesting fact is that the classes that have the additional fees higher than $1000 and class capacity smaller than 5 are all in LAW SCHOOL.
 
 ### Here is a distribution of classes of different credits
+<br /><br />

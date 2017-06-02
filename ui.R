@@ -146,7 +146,10 @@ body <- dashboardBody(
             fluidPage(
               h2("Fun Facts about the UW classes!"),
               includeMarkdown("funfact.md"),
-              plotlyOutput('pie')
+              mainPanel(
+                plotlyOutput('pie')
+              )
+              
             ))
   )
       )

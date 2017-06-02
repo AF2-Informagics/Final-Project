@@ -35,7 +35,7 @@ body <- dashboardBody(
     tags$style(
       HTML(
         '
-        body {
+        body, text {
         font-family: "Iosevka Slab", sans-serif;
         }
         h2, h5, span {
@@ -149,9 +149,7 @@ body <- dashboardBody(
               mainPanel(
                 plotlyOutput('pie')
               )
-              
-            ))
-  )
+            )))
       )
 
 # Put them together into a dashboardPage

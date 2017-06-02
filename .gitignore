@@ -36,4 +36,4 @@ vignettes/*.pdf
 .idea/
 
 # shiny
-rconnect/
+rsconnect/
